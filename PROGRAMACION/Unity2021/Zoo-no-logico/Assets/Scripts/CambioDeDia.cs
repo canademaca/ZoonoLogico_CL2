@@ -13,6 +13,7 @@ public class CambioDeDia : MonoBehaviour {
     public GameObject PantallaPostEvento;
     public GameObject PantallaPerder;
     public GameObject PantallaGanar;
+    public GameObject PantallaAnimalFallecido;
     public int Popularidad;
     public GameObject PopularidadBarra;
     private string[] listaAnimales = new string[] { "Carpincho", "Cocodrilo", "Arana", "Ave", "Serpiente", "Zorro", "Murcielago" };
@@ -28,6 +29,26 @@ public class CambioDeDia : MonoBehaviour {
 
 
     [SerializeField] private GameObject ANALYTICS;
+    [SerializeField] private TextAsset Cruzas;
+
+    [System.Serializable]
+    public class Cruza
+    {
+        public string id;
+        public int popularidad;
+    }
+    [System.Serializable]
+    public class CruzaList
+    {
+        public Cruza[] cruza;
+    }
+
+    public CruzaList myCruzaList = new CruzaList();
+
+
+    
+
+    [SerializeField] private Saciedad saciedadCtrl;
 
     // Use this for initialization
     void Start() {
@@ -106,7 +127,10 @@ public class CambioDeDia : MonoBehaviour {
 
         
     }
-
+    public void CerrarPantallaAnimalFallecido()
+    {
+        PantallaAnimalFallecido.SetActive(false);
+    }
     public void AbrirPantalla()
     {
 

@@ -1400,6 +1400,7 @@ MonoBehaviour:
   PantallaPostEvento: {fileID: 0}
   PantallaPerder: {fileID: 0}
   PantallaGanar: {fileID: 0}
+  PantallaAnimalFallecido: {fileID: 634843806}
   Popularidad: 0
   PopularidadBarra: {fileID: 767822886}
   aranaDesbloqueada: {fileID: 0}
@@ -1408,6 +1409,10 @@ MonoBehaviour:
   speed: 10
   CinematicaNumero: 0
   ANALYTICS: {fileID: 0}
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  myCruzaList:
+    cruza: []
+  saciedadCtrl: {fileID: 208765380}
 --- !u!114 &208765377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6065,6 +6070,7 @@ MonoBehaviour:
   PantallaPostEvento: {fileID: 0}
   PantallaPerder: {fileID: 666316547}
   PantallaGanar: {fileID: 1373270451}
+  PantallaAnimalFallecido: {fileID: 0}
   Popularidad: 0
   PopularidadBarra: {fileID: 767822886}
   aranaDesbloqueada: {fileID: 1887611563}
@@ -6073,6 +6079,10 @@ MonoBehaviour:
   speed: 10
   CinematicaNumero: 0
   ANALYTICS: {fileID: 0}
+  Cruzas: {fileID: 0}
+  myCruzaList:
+    cruza: []
+  saciedadCtrl: {fileID: 0}
 --- !u!114 &905196905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9177,6 +9187,7 @@ MonoBehaviour:
   PantallaPostEvento: {fileID: 0}
   PantallaPerder: {fileID: 0}
   PantallaGanar: {fileID: 0}
+  PantallaAnimalFallecido: {fileID: 0}
   Popularidad: 0
   PopularidadBarra: {fileID: 0}
   aranaDesbloqueada: {fileID: 0}
@@ -9185,6 +9196,10 @@ MonoBehaviour:
   speed: 10
   CinematicaNumero: 0
   ANALYTICS: {fileID: 0}
+  Cruzas: {fileID: 0}
+  myCruzaList:
+    cruza: []
+  saciedadCtrl: {fileID: 0}
 --- !u!114 &1376249676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13993,6 +14008,7 @@ MonoBehaviour:
   PantallaPostEvento: {fileID: 457022996}
   PantallaPerder: {fileID: 0}
   PantallaGanar: {fileID: 1373270451}
+  PantallaAnimalFallecido: {fileID: 0}
   Popularidad: 0
   PopularidadBarra: {fileID: 0}
   aranaDesbloqueada: {fileID: 0}
@@ -14001,6 +14017,10 @@ MonoBehaviour:
   speed: 10
   CinematicaNumero: 0
   ANALYTICS: {fileID: 0}
+  Cruzas: {fileID: 0}
+  myCruzaList:
+    cruza: []
+  saciedadCtrl: {fileID: 0}
 --- !u!114 &1983965513
 MonoBehaviour:
   m_ObjectHideFlags: 0
