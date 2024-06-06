@@ -27,6 +27,7 @@
 -define:UNITY_2021_2_OR_NEWER
 -define:UNITY_2021_3_OR_NEWER
 -define:UNITY_INCLUDE_TESTS
+-define:UNITY_ANALYTICS
 -define:USE_SEARCH_ENGINE_API
 -define:USE_SEARCH_TABLE
 -define:USE_SEARCH_MODULE
@@ -304,10 +305,10 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll"
--r:"C:/Users/USER/Documents/ZOO2024/4_6/4_6/PROGRAMACION/Unity2021/Zoo-no-logico/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
--r:"C:/Users/USER/Documents/ZOO2024/4_6/4_6/PROGRAMACION/Unity2021/Zoo-no-logico/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll"
--r:"C:/Users/USER/Documents/ZOO2024/4_6/4_6/PROGRAMACION/Unity2021/Zoo-no-logico/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll"
--r:"C:/Users/USER/Documents/ZOO2024/4_6/4_6/PROGRAMACION/Unity2021/Zoo-no-logico/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll"
+-r:"C:/Users/USER/Documents/ZOO2024/5_6/ZoonoLogico_CL2/PROGRAMACION/Unity2021/Zoo-no-logico/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
+-r:"C:/Users/USER/Documents/ZOO2024/5_6/ZoonoLogico_CL2/PROGRAMACION/Unity2021/Zoo-no-logico/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll"
+-r:"C:/Users/USER/Documents/ZOO2024/5_6/ZoonoLogico_CL2/PROGRAMACION/Unity2021/Zoo-no-logico/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll"
+-r:"C:/Users/USER/Documents/ZOO2024/5_6/ZoonoLogico_CL2/PROGRAMACION/Unity2021/Zoo-no-logico/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Analytics.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/com.unity.cinemachine.editor.ref.dll"
@@ -450,6 +451,7 @@
 "Assets/Scripts/TogglePerdida.cs"
 "Assets/Scripts/UIZoomImage.cs"
 "Assets/Scripts/UnlockStoreAnimals.cs"
+"Assets/Scripts/VidPlayer.cs"
 "Assets/SnakeMiniGame.cs"
 "Assets/Sonidos/MusicManager.cs"
 "Assets/Sonidos/Sonido Boton.cs"
