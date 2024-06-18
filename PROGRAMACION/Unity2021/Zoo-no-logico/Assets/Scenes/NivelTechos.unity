@@ -3525,22 +3525,22 @@ PrefabInstance:
     - target: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
       propertyPath: m_Size.x
-      value: 3.4245472
+      value: 3.2417822
       objectReference: {fileID: 0}
     - target: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
       propertyPath: m_Size.y
-      value: 3.5641236
+      value: 3.4016645
       objectReference: {fileID: 0}
     - target: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.029157639
+      value: 0.12054014
       objectReference: {fileID: 0}
     - target: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
       propertyPath: m_Offset.y
-      value: 0.0045371056
+      value: 0.08576667
       objectReference: {fileID: 0}
     - target: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
@@ -3869,22 +3869,22 @@ PrefabInstance:
     - target: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
       propertyPath: m_Size.x
-      value: 3.4245472
+      value: 3.2181334
       objectReference: {fileID: 0}
     - target: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
       propertyPath: m_Size.y
-      value: 3.5641236
+      value: 3.4461737
       objectReference: {fileID: 0}
     - target: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.029157639
+      value: 0.13236451
       objectReference: {fileID: 0}
     - target: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
       propertyPath: m_Offset.y
-      value: 0.0045371056
+      value: 0.06351215
       objectReference: {fileID: 0}
     - target: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
@@ -4480,7 +4480,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 8
   m_TargetDisplay: 0
 --- !u!1 &1294910572
 GameObject:
@@ -5685,7 +5685,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: -1700042939
+  m_SortingLayerID: 0
   m_SortingOrder: 8
   m_TargetDisplay: 0
 --- !u!224 &1549364155
@@ -5904,8 +5904,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notificacion: {fileID: 0}
   ANALYTICS: {fileID: 0}
+  sound: {fileID: 0}
+  Sonidoboton: {fileID: 0}
+  scriptDia: {fileID: 0}
 --- !u!114 &1589625458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7513,22 +7515,22 @@ PrefabInstance:
     - target: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
       propertyPath: m_Size.x
-      value: 3.4245472
+      value: 3.1813817
       objectReference: {fileID: 0}
     - target: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
       propertyPath: m_Size.y
-      value: 3.5641236
+      value: 3.3749957
       objectReference: {fileID: 0}
     - target: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.029157639
+      value: 0.15074039
       objectReference: {fileID: 0}
     - target: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
       propertyPath: m_Offset.y
-      value: 0.0045371056
+      value: 0.09910107
       objectReference: {fileID: 0}
     - target: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
@@ -7776,7 +7778,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.012692571, y: -0.033846736}
+  m_Offset: {x: 0.027258515, y: -0.033846736}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7787,7 +7789,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.8361449, y: 2.6123068}
+  m_Size: {x: 1.7562428, y: 2.6123068}
   m_EdgeRadius: 0
 --- !u!212 &2094911037
 SpriteRenderer:
@@ -8002,8 +8004,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notificacion: {fileID: 0}
   ANALYTICS: {fileID: 0}
+  sound: {fileID: 0}
+  Sonidoboton: {fileID: 0}
+  scriptDia: {fileID: 0}
 --- !u!4 &2129896113 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3951781306951793240, guid: 03df524837973d14087fbd748752f85a,
