@@ -195,7 +195,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1055430963
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 29e180514149056488a38b803c44c81d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -268,7 +268,6 @@ MonoBehaviour:
   Button: {fileID: 1594821378}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
-  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &33450662
 MonoBehaviour:
@@ -420,7 +419,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6b1a7ae3de6283a4ebe3f1343517e304, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -641,7 +640,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1055430963
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e54f14a289cabca4d8c1e3bbacd8f71c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -994,7 +993,6 @@ MonoBehaviour:
   Button: {fileID: 187599292}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
-  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &187599295
 MonoBehaviour:
@@ -1150,7 +1148,6 @@ MonoBehaviour:
   Button: {fileID: 807856994}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
-  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &191452530
 MonoBehaviour:
@@ -1306,7 +1303,6 @@ MonoBehaviour:
   Button: {fileID: 172952888}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 653819667}
-  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &193233197
 MonoBehaviour:
@@ -1473,7 +1469,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 316415be1ec44e543a749ce9e162f0de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1631,7 +1627,6 @@ MonoBehaviour:
   Button: {fileID: 2093792715}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
-  comidaScript: {fileID: 225910690}
   ANALYTICS: {fileID: 0}
 --- !u!114 &225910690
 MonoBehaviour:
@@ -1642,7 +1637,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 225910687}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d8e174718f12d74398886f3b7a9ec3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   comida: 0
@@ -1934,7 +1929,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: -2
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2079,7 +2074,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -67232071
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3a4b55fd24c4f5f49823c1525bc6d215, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2503,7 +2498,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: f5002ecb483a2e44a864e5bbe1db3d4d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2587,7 +2582,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 06f0ee39cfc86304eaddca8b631948bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3059,7 +3054,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1845701419
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e54f14a289cabca4d8c1e3bbacd8f71c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3130,7 +3125,6 @@ MonoBehaviour:
   Button: {fileID: 443199475}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
-  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &443199478
 MonoBehaviour:
@@ -3297,7 +3291,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 937fad170686aca4a8d8aad0f56ac71b, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -3444,6 +3438,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ANALYTICS: {fileID: 0}
+  sound: {fileID: 0}
+  Sonidoboton: {fileID: 0}
+  scriptDia: {fileID: 0}
 --- !u!114 &489951539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3754,7 +3751,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4a770aba468b03e4bbda1a2eae4d9dd5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3838,7 +3835,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -67232071
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3a4b55fd24c4f5f49823c1525bc6d215, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4140,7 +4137,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 093b1f119c2d16f43a8a7dacb77bfee5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4209,7 +4206,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -67232071
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3a4b55fd24c4f5f49823c1525bc6d215, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4294,7 +4291,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 4362e1d5ffcbcbc45b9dc8cccccae7ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5030,7 +5027,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 86dd1375a3f01e7408ca5756f8ee1116, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5117,7 +5114,6 @@ MonoBehaviour:
   Button: {fileID: 799526152}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
-  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &799526155
 MonoBehaviour:
@@ -5284,7 +5280,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c86a3b356b60d894f84049e97a581e35, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5713,7 +5709,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1055430963
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 29e180514149056488a38b803c44c81d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5782,7 +5778,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 937fad170686aca4a8d8aad0f56ac71b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5938,7 +5934,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 938481035}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d8e174718f12d74398886f3b7a9ec3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   comida: 0
@@ -6055,7 +6051,6 @@ MonoBehaviour:
   Button: {fileID: 2093792715}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
-  comidaScript: {fileID: 938481037}
   ANALYTICS: {fileID: 0}
 --- !u!1 &950559448
 GameObject:
@@ -6129,7 +6124,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1055430963
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 29e180514149056488a38b803c44c81d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6651,7 +6646,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1055430963
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e54f14a289cabca4d8c1e3bbacd8f71c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7046,7 +7041,6 @@ MonoBehaviour:
   Button: {fileID: 1058717680}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 653819667}
-  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1058717683
 MonoBehaviour:
@@ -7282,7 +7276,6 @@ MonoBehaviour:
   Button: {fileID: 312657976}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
-  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1068893827
 MonoBehaviour:
@@ -7450,7 +7443,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1845701419
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 29e180514149056488a38b803c44c81d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7599,7 +7592,6 @@ MonoBehaviour:
   Button: {fileID: 2093792715}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
-  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1087141209
 MonoBehaviour:
@@ -7848,7 +7840,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1055430963
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 29e180514149056488a38b803c44c81d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8092,7 +8084,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 093b1f119c2d16f43a8a7dacb77bfee5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8161,7 +8153,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -67232071
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3a4b55fd24c4f5f49823c1525bc6d215, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8261,7 +8253,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 316415be1ec44e543a749ce9e162f0de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8345,7 +8337,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: d3fdde2dfaeeab64fa700d7d19c7ac8e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8414,7 +8406,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 654365647609370408b53fdd545c8b21, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8726,7 +8718,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 7303469b369ade34ca76552b7fdbb995, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8825,7 +8817,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f5002ecb483a2e44a864e5bbe1db3d4d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8975,7 +8967,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -67232071
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3a4b55fd24c4f5f49823c1525bc6d215, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9256,7 +9248,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1055430963
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e54f14a289cabca4d8c1e3bbacd8f71c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9327,7 +9319,6 @@ MonoBehaviour:
   Button: {fileID: 1486397126}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
-  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1486397129
 MonoBehaviour:
@@ -9555,7 +9546,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: ffa75dbd26bad8b44ae9480944c8f000, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9643,7 +9634,6 @@ MonoBehaviour:
   Button: {fileID: 983598179}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
-  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1508144208
 MonoBehaviour:
@@ -10047,7 +10037,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1055430963
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 29e180514149056488a38b803c44c81d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10116,7 +10106,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1055430963
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3a4b55fd24c4f5f49823c1525bc6d215, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10344,7 +10334,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: bb6555c6df35131409605feda3ae01dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10512,7 +10502,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: d3fdde2dfaeeab64fa700d7d19c7ac8e, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -10597,7 +10587,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1055430963
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 29e180514149056488a38b803c44c81d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10666,7 +10656,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 52d74c4c2822cff428b3ebf4996b9289, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10750,7 +10740,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1845701419
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3a4b55fd24c4f5f49823c1525bc6d215, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10835,7 +10825,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1f56204d98a6f8646aff90ed9a691988, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10922,7 +10912,6 @@ MonoBehaviour:
   Button: {fileID: 1707595606}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
-  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1707595609
 MonoBehaviour:
@@ -11089,7 +11078,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1055430963
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e54f14a289cabca4d8c1e3bbacd8f71c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11240,7 +11229,6 @@ MonoBehaviour:
   Button: {fileID: 1863400362}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
-  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1863400365
 MonoBehaviour:
@@ -11414,7 +11402,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 5
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11620,7 +11608,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1055430963
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e54f14a289cabca4d8c1e3bbacd8f71c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11784,7 +11772,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1055430963
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e54f14a289cabca4d8c1e3bbacd8f71c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12002,7 +11990,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 06f0ee39cfc86304eaddca8b631948bf, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -12071,7 +12059,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: 7b53eed8e734b4344b15cd428f32b42e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12170,7 +12158,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1700042939
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 42
   m_Sprite: {fileID: 21300000, guid: b56ea43db38886d44a63bb2cd90b047a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12243,7 +12231,6 @@ MonoBehaviour:
   Button: {fileID: 82040026}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
-  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &2125038298
 MonoBehaviour:
