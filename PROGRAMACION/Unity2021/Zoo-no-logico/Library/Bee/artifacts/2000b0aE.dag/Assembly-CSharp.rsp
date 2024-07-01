@@ -392,6 +392,7 @@
 "Assets/Scripts/ChangeScene.cs"
 "Assets/Scripts/CheatCodes.cs"
 "Assets/Scripts/CheckCuposCruza.cs"
+"Assets/Scripts/Cinematicas.cs"
 "Assets/Scripts/CloseWindow.cs"
 "Assets/Scripts/CloseWindow1.cs"
 "Assets/Scripts/CodexCruzas.cs"
