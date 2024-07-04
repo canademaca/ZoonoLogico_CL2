@@ -15,6 +15,8 @@ public class MonedasTotales : MonoBehaviour {
 
     public GameObject Cosoprueba;
 
+    [SerializeField] private Comida comidaScript;
+
     [SerializeField] private GameObject ANALYTICS;
 
     // Start is called before the first frame update

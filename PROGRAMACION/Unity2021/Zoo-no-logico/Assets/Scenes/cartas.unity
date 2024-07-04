@@ -637,7 +637,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 141522545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a42d1a8c8a9ca14783698850da2796e, type: 3}
+  m_Script: {fileID: 11500000, guid: d7f6af63b27a9794781737d2afbc52c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 461139812}
@@ -980,7 +980,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 389703513}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 188890485}
@@ -1477,7 +1476,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 1126605075}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 272028791}
@@ -1628,7 +1626,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 559650949}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 288481848}
@@ -2595,7 +2592,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 393645010}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 1166556261}
@@ -2746,7 +2742,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 965676453}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 1360525187}
@@ -2939,7 +2934,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 461139812}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a42d1a8c8a9ca14783698850da2796e, type: 3}
+  m_Script: {fileID: 11500000, guid: d7f6af63b27a9794781737d2afbc52c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 461139812}
@@ -3212,7 +3207,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 850733590}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 1764094979}
@@ -3269,7 +3263,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 1696545744}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 469331238}
@@ -4286,7 +4279,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 1019992735}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 642924064}
@@ -4932,7 +4924,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 389703513}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 188890485}
@@ -5211,7 +5202,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 1156392353}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 1639672889}
@@ -5477,7 +5467,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 835749598}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a42d1a8c8a9ca14783698850da2796e, type: 3}
+  m_Script: {fileID: 11500000, guid: d7f6af63b27a9794781737d2afbc52c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 461139812}
@@ -6937,7 +6927,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 1019992735}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 642924064}
@@ -7472,7 +7461,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 2088753869}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 1971508878}
@@ -7613,7 +7601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 393645010}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 1166556261}
@@ -8178,7 +8165,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 711506155}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6811031
+  m_Size: 0.68110317
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8354,7 +8341,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 965676453}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 1360525187}
@@ -9667,7 +9653,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 1175716059}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 1603911056}
@@ -9910,7 +9895,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1611099431}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a42d1a8c8a9ca14783698850da2796e, type: 3}
+  m_Script: {fileID: 11500000, guid: d7f6af63b27a9794781737d2afbc52c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 461139812}
@@ -10133,7 +10118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 1156392353}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 1639672889}
@@ -10459,7 +10443,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 634545012}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 1716805358}
@@ -10586,7 +10569,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1740883550}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a42d1a8c8a9ca14783698850da2796e, type: 3}
+  m_Script: {fileID: 11500000, guid: d7f6af63b27a9794781737d2afbc52c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 461139812}
@@ -10921,7 +10904,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 850733590}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 1764094979}
@@ -11166,7 +11148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 559650949}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 288481848}
@@ -11305,7 +11286,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1874954011}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a42d1a8c8a9ca14783698850da2796e, type: 3}
+  m_Script: {fileID: 11500000, guid: d7f6af63b27a9794781737d2afbc52c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 461139812}
@@ -12321,7 +12302,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 1126605075}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 272028791}
@@ -12378,7 +12358,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 2088753869}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 1971508878}
@@ -12623,7 +12602,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 1175716059}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 1603911056}
@@ -12934,7 +12912,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 1696545744}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 469331238}
@@ -13085,7 +13062,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ae1d7c53cf16d46bdd88bf807f8400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ANALYTICS: {fileID: 0}
   CartaInfo: {fileID: 634545012}
   Sombreado: {fileID: 671212332}
   CartaBoton: {fileID: 1716805358}

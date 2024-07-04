@@ -268,6 +268,7 @@ MonoBehaviour:
   Button: {fileID: 1594821378}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &33450662
 MonoBehaviour:
@@ -993,6 +994,7 @@ MonoBehaviour:
   Button: {fileID: 187599292}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &187599295
 MonoBehaviour:
@@ -1148,6 +1150,7 @@ MonoBehaviour:
   Button: {fileID: 807856994}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &191452530
 MonoBehaviour:
@@ -1303,6 +1306,7 @@ MonoBehaviour:
   Button: {fileID: 172952888}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 653819667}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &193233197
 MonoBehaviour:
@@ -1627,6 +1631,7 @@ MonoBehaviour:
   Button: {fileID: 2093792715}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 225910690}
   ANALYTICS: {fileID: 0}
 --- !u!114 &225910690
 MonoBehaviour:
@@ -3125,6 +3130,7 @@ MonoBehaviour:
   Button: {fileID: 443199475}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &443199478
 MonoBehaviour:
@@ -5114,6 +5120,7 @@ MonoBehaviour:
   Button: {fileID: 799526152}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &799526155
 MonoBehaviour:
@@ -6051,6 +6058,7 @@ MonoBehaviour:
   Button: {fileID: 2093792715}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 938481037}
   ANALYTICS: {fileID: 0}
 --- !u!1 &950559448
 GameObject:
@@ -7041,6 +7049,7 @@ MonoBehaviour:
   Button: {fileID: 1058717680}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 653819667}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1058717683
 MonoBehaviour:
@@ -7276,6 +7285,7 @@ MonoBehaviour:
   Button: {fileID: 312657976}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1068893827
 MonoBehaviour:
@@ -7592,6 +7602,7 @@ MonoBehaviour:
   Button: {fileID: 2093792715}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1087141209
 MonoBehaviour:
@@ -9319,6 +9330,7 @@ MonoBehaviour:
   Button: {fileID: 1486397126}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1486397129
 MonoBehaviour:
@@ -9634,6 +9646,7 @@ MonoBehaviour:
   Button: {fileID: 983598179}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1508144208
 MonoBehaviour:
@@ -10912,6 +10925,7 @@ MonoBehaviour:
   Button: {fileID: 1707595606}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1707595609
 MonoBehaviour:
@@ -11229,6 +11243,7 @@ MonoBehaviour:
   Button: {fileID: 1863400362}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1863400365
 MonoBehaviour:
@@ -12231,6 +12246,7 @@ MonoBehaviour:
   Button: {fileID: 82040026}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &2125038298
 MonoBehaviour:

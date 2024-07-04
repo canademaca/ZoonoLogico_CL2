@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638553872184319485
-    m_Hash: 3150551380
+      ticks: 638555533252014475
+    m_Hash: 534580544
   m_LockFileStatus:
     m_FilePath: C:/Users/USER/Documents/ZOO2024/ZoonoLogico_CL2/PROGRAMACION/Unity2021/Zoo-no-logico/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638553872184441640
-    m_Hash: 511682954
+      ticks: 638555533252024517
+    m_Hash: 2790819108
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
