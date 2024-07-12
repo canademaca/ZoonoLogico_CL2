@@ -167,7 +167,7 @@ public class CambioDeDia : MonoBehaviour {
         if (Popularidad >= 100 && PlayerPrefs.GetInt("Ganaste")==0)
         {
             PlayerPrefs.SetString("Cinematica", "GOOD_END");
-            SceneManager.LoadScene(17);
+            SceneManager.LoadScene(75);
             print(PlayerPrefs.GetString("Cinematica"));
             print("ganar");
             PlayerPrefs.SetInt("Ganaste", 1);
@@ -179,7 +179,7 @@ public class CambioDeDia : MonoBehaviour {
         else if (Popularidad <= 0 && PlayerPrefs.GetInt("Ganaste") == 0)
         {
             PlayerPrefs.SetString("Cinematica", "BAD_END");
-            SceneManager.LoadScene(17);
+            SceneManager.LoadScene(75);
             print(PlayerPrefs.GetString("Cinematica"));
             print("perder");
             ANALYTICS.SendMessage("game_over");
