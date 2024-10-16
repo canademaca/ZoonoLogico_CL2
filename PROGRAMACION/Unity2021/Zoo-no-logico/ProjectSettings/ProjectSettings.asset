@@ -685,11 +685,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: e5a4d8d2-1024-4c13-872a-53cbd8dbaf76
+  cloudProjectId: 343b38f1-f67f-4c91-aba0-785bb4011106
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Zoo-no-logico
-  organizationId: zoo-no-logico
+  projectName: Zoo-no-logico (1)
+  organizationId: final-taller-iv-canade-ladronis
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
   playerDataPath: 
