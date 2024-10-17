@@ -8985,6 +8985,7 @@ MonoBehaviour:
   Button: {fileID: 0}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1368914046
 MonoBehaviour:
@@ -13093,6 +13094,7 @@ MonoBehaviour:
   Button: {fileID: 0}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  comidaScript: {fileID: 0}
   ANALYTICS: {fileID: 0}
 --- !u!114 &1875251167
 MonoBehaviour:
