@@ -366,13 +366,13 @@ public class EventosAnalytics : MonoBehaviour
         AnalyticsService.Instance.CustomData("calificacion", new Dictionary<string, object>(){
             {"graficos", PlayerPrefs.GetInt("CalifGraficos")},
             {"jugabilidad", PlayerPrefs.GetInt("CalifJugabilidad")},
-            {"redacci�n", PlayerPrefs.GetInt("CalifRedaccion")},
+            {"redaccion", PlayerPrefs.GetInt("CalifRedaccion")},
             {"contenido", PlayerPrefs.GetInt("CalifContenido")},
 
         }); //TERMINADO
         Debug.Log("graficos" + PlayerPrefs.GetInt("CalifGraficos"));
         Debug.Log("jugabilidad" + PlayerPrefs.GetInt("CalifJugabilidad"));
-        Debug.Log("redacci�n" + PlayerPrefs.GetInt("CalifRedaccion"));
+        Debug.Log("redaccion" + PlayerPrefs.GetInt("CalifRedaccion"));
         Debug.Log("contenido" + PlayerPrefs.GetInt("CalifContenido"));
     }
 
