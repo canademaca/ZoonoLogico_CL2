@@ -27,7 +27,6 @@
 -define:UNITY_2021_2_OR_NEWER
 -define:UNITY_2021_3_OR_NEWER
 -define:UNITY_INCLUDE_TESTS
--define:UNITY_ANALYTICS
 -define:USE_SEARCH_ENGINE_API
 -define:USE_SEARCH_TABLE
 -define:USE_SEARCH_MODULE
@@ -350,8 +349,6 @@
 "Assets/ChangeSceneRandom.cs"
 "Assets/ColisionBat.cs"
 "Assets/FondoTest.cs"
-"Assets/InicioAnalytics.cs"
-"Assets/InicioAnalyticsCeci.cs"
 "Assets/Items & Inventory/Scripts/CantidadCupos.cs"
 "Assets/Items & Inventory/Scripts/CantidadVisitantes.cs"
 "Assets/Items & Inventory/Scripts/Character.cs"
