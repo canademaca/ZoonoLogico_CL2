@@ -98,11 +98,11 @@ public class Saciedad : MonoBehaviour
                 feedCount.GetComponent<TMP_Text>().text = (int.Parse(feedCount.GetComponent<TMP_Text>().text) + 1).ToString();
             } else
             {
-                Debug.Log("No tienes más comida");
+                Debug.Log("No tienes mas comida");
             }
         } else
         {
-            Debug.Log("El animal ya estará en 100 de saciedad");
+            Debug.Log("El animal ya estara en 100 de saciedad");
         }
        
     }
@@ -146,14 +146,14 @@ public class Saciedad : MonoBehaviour
                 else
                 {
                     PantallaFaltaComida.SetActive(true);
-                    Debug.Log("No tienes más comida");
+                    Debug.Log("No tienes mas comida");
                     break;
                 }
                 //}
             }
             else
             {
-                Debug.Log("El animal ya estará en 100 de saciedad");
+                Debug.Log("El animal ya estara en 100 de saciedad");
             }
         }
     }

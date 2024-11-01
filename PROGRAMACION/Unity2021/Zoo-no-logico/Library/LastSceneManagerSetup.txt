@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/TutorialMiniGame01.unity
+- path: Assets/Scenes/Tutorial2/Mapa1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

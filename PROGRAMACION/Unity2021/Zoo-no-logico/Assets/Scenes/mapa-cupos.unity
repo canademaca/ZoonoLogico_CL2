@@ -180,15 +180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 6
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 915258257}
-  comidaHandler: {fileID: 1556276}
 --- !u!114 &1556276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,8 +192,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1556277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,15 +342,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 16
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1428987955}
-  comidaHandler: {fileID: 4731740}
 --- !u!114 &4731740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,8 +354,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &4731741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1061,15 +1039,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 1
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 467901296}
-  comidaHandler: {fileID: 46586631}
 --- !u!114 &46586631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1082,8 +1051,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &46586632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1304,7 +1271,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 55577741}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
+  m_Script: {fileID: 11500000, guid: 71b15d306f91e084d9c9517b17997fcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
@@ -3059,15 +3026,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 1
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 467901296}
-  comidaHandler: {fileID: 155972905}
 --- !u!114 &155972905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3080,8 +3038,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &155972906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3502,15 +3458,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 188610119}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &188610119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4762,15 +4709,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 267787968}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &267787968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5152,15 +5090,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 284877871}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &284877871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5711,15 +5640,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 2
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1554102378}
-  comidaHandler: {fileID: 310205722}
 --- !u!114 &310205722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5732,8 +5652,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &310205723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6006,15 +5924,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 19
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 207123595}
-  comidaHandler: {fileID: 314289174}
 --- !u!114 &314289174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6027,8 +5936,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &314289175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6301,15 +6208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 3
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1939895574}
-  comidaHandler: {fileID: 322734523}
 --- !u!114 &322734523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6322,8 +6220,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &322734524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7424,15 +7320,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 9
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1659763891}
-  comidaHandler: {fileID: 392403013}
 --- !u!114 &392403013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7445,8 +7332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &392403014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7981,15 +7866,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 409642910}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &409642910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9719,15 +9595,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 5
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1567899966}
-  comidaHandler: {fileID: 532462539}
 --- !u!114 &532462539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9740,8 +9607,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &532462540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9968,15 +9833,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 13
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 714578236}
-  comidaHandler: {fileID: 548340547}
 --- !u!114 &548340547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9989,8 +9845,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &548340548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10352,15 +10206,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 4
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1583327659}
-  comidaHandler: {fileID: 571233363}
 --- !u!114 &571233363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10373,8 +10218,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &571233364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10525,8 +10368,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &573310556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10633,15 +10474,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1369261244}
-  comidaHandler: {fileID: 573310555}
 --- !u!1 &581547193
 GameObject:
   m_ObjectHideFlags: 0
@@ -11124,15 +10956,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 15
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 614156030}
-  comidaHandler: {fileID: 601539141}
 --- !u!114 &601539141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11145,8 +10968,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &601539142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11795,15 +11616,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 627407477}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &627407477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11991,15 +11803,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 14
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1537011801}
-  comidaHandler: {fileID: 639918971}
 --- !u!114 &639918971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12012,8 +11815,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &639918972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12379,15 +12180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 7
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 350419724}
-  comidaHandler: {fileID: 655956602}
 --- !u!114 &655956602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12400,8 +12192,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &655956603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12776,15 +12566,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 681589251}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &681589251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12892,15 +12673,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 13
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 714578236}
-  comidaHandler: {fileID: 692935108}
 --- !u!114 &692935108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12913,8 +12685,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &692935109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13200,15 +12970,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 18
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1277505190}
-  comidaHandler: {fileID: 698498890}
 --- !u!114 &698498890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13221,8 +12982,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &698498891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14300,15 +14059,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 16
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1428987955}
-  comidaHandler: {fileID: 760811375}
 --- !u!114 &760811375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14321,8 +14071,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &760811376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14625,15 +14373,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 10
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 81321163}
-  comidaHandler: {fileID: 768349109}
 --- !u!114 &768349109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14646,8 +14385,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &768349110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15325,15 +15062,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 8
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 59007824}
-  comidaHandler: {fileID: 808277687}
 --- !u!114 &808277687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15346,8 +15074,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &808277688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15650,15 +15376,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 834106965}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &834106965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16576,15 +16293,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 4
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1583327659}
-  comidaHandler: {fileID: 879401296}
 --- !u!114 &879401296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16597,8 +16305,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &879401297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17246,15 +16952,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 913584424}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &913584424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17737,15 +17434,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 947406662}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &947406662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18934,15 +18622,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 5
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1567899966}
-  comidaHandler: {fileID: 984025855}
 --- !u!114 &984025855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18955,8 +18634,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &984025856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20966,15 +20643,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 1112646130}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &1112646130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21162,15 +20830,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 17
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 2015776178}
-  comidaHandler: {fileID: 1124867663}
 --- !u!114 &1124867663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21183,8 +20842,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1124867664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21525,15 +21182,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 1144656396}
-  sliderFill: {fileID: 145905751}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &1144656396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21641,15 +21289,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 15
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 614156030}
-  comidaHandler: {fileID: 1146382422}
 --- !u!114 &1146382422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21662,8 +21301,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1146382423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22560,15 +22197,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 12
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1740093010}
-  comidaHandler: {fileID: 1198298096}
 --- !u!114 &1198298096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22581,8 +22209,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1198298097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23248,15 +22874,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 10
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 81321163}
-  comidaHandler: {fileID: 1239258582}
 --- !u!114 &1239258582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23269,8 +22886,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1239258583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23421,15 +23036,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 9
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1659763891}
-  comidaHandler: {fileID: 1239622832}
 --- !u!114 &1239622832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23442,8 +23048,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1239622833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24234,15 +23838,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 1272458768}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &1272458768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24350,15 +23945,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 18
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1277505190}
-  comidaHandler: {fileID: 1272680087}
 --- !u!114 &1272680087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24371,8 +23957,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1272680088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26843,15 +26427,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 2
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1554102378}
-  comidaHandler: {fileID: 1423429644}
 --- !u!114 &1423429644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26864,8 +26439,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1423429645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27362,15 +26935,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 14
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1537011801}
-  comidaHandler: {fileID: 1443803859}
 --- !u!114 &1443803859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27383,8 +26947,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1443803860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28020,15 +27582,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 1470960909}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &1470960909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28132,15 +27685,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 1473524336}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &1473524336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28855,15 +28399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 1507135654}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &1507135654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30154,15 +29689,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 1566263429}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &1566263429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30523,15 +30049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 1576935995}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &1576935995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33084,15 +32601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 1698957146}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &1698957146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33539,15 +33047,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 19
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 207123595}
-  comidaHandler: {fileID: 1713226806}
 --- !u!114 &1713226806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33560,8 +33059,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1713226807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33906,15 +33403,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 1733788081}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &1733788081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34435,8 +33923,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1751164611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34543,15 +34029,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1369261244}
-  comidaHandler: {fileID: 1751164610}
 --- !u!1 &1751560501
 GameObject:
   m_ObjectHideFlags: 0
@@ -35186,15 +34663,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 6
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 915258257}
-  comidaHandler: {fileID: 1792230058}
 --- !u!114 &1792230058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35207,8 +34675,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1792230059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35591,15 +35057,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 11
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 32410977}
-  comidaHandler: {fileID: 1818008957}
 --- !u!114 &1818008957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35612,8 +35069,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1818008958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35916,15 +35371,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 12
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1740093010}
-  comidaHandler: {fileID: 1839616188}
 --- !u!114 &1839616188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35937,8 +35383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1839616189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37257,15 +36701,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 3
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 1939895574}
-  comidaHandler: {fileID: 1905319993}
 --- !u!114 &1905319993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37278,8 +36713,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1905319994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38187,15 +37620,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 7
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 350419724}
-  comidaHandler: {fileID: 1957936764}
 --- !u!114 &1957936764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38208,8 +37632,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1957936765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38592,15 +38014,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 1968026124}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &1968026124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38919,15 +38332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 11
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 32410977}
-  comidaHandler: {fileID: 1978348790}
 --- !u!114 &1978348790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38940,8 +38344,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &1978348791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39505,15 +38907,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 0
-  saciedad: 0
-  slider: {fileID: 2002937694}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 0}
-  comidaHandler: {fileID: 0}
 --- !u!114 &2002937694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40489,15 +39882,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 8
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 59007824}
-  comidaHandler: {fileID: 2034961897}
 --- !u!114 &2034961897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40510,8 +39894,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &2034961898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42551,15 +41933,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccad2ee37e557d479516953aa77739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cruzas: []
-  selectedJaula: 17
-  saciedad: 0
-  slider: {fileID: 0}
-  sliderFill: {fileID: 0}
-  comida: 0
-  PantallaFaltaComida: {fileID: 0}
-  feedCount: {fileID: 2015776178}
-  comidaHandler: {fileID: 2142587192}
 --- !u!114 &2142587192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42572,8 +41945,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcfa734d3d8698c49abec4e8e10acea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comida: 0
-  foodCount: {fileID: 0}
 --- !u!114 &2142587193
 MonoBehaviour:
   m_ObjectHideFlags: 0
