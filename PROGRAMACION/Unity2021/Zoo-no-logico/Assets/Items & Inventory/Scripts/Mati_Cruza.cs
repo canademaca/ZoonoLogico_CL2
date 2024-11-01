@@ -10,7 +10,7 @@ public class Mati_Cruza : MonoBehaviour
     public List<string> animales1 = new List<string>();                 // Lista que guarda los nombres de los animales recibidos
     public List<Mati_Animales> animales2 = new List<Mati_Animales>();   // Lista que guarda los animales recibidos (Scriptable Objects)
 
-    public bool HayObjetos;                                             // Bool que detecta si están los 3 animales en los slots
+    public bool HayObjetos;                                             // Bool que detecta si estan los 3 animales en los slots
 
     public Button Boton;                                                // Boton de cruza                                 
 
@@ -31,7 +31,7 @@ public class Mati_Cruza : MonoBehaviour
     {
         HayObjetos = false;                                             // Determina que no estan los animales en los slots
 
-        Boton.interactable = false;                                     // Desactiva el botón de cruza
+        Boton.interactable = false;                                     // Desactiva el botï¿½n de cruza
 
         cruzas = Resources.LoadAll<Mati_CruzasAnimales>("");            // Busca los SO de las cruzas en la carpeta Resources
 
@@ -41,13 +41,13 @@ public class Mati_Cruza : MonoBehaviour
 
     }
 
-    public void Recibir(Mati_Animales animal)                           // Este método es llamado desde la tarjeta del animal
+    public void Recibir(Mati_Animales animal)                           // Este mï¿½todo es llamado desde la tarjeta del animal
     {
 
         if (animales2.Count < 3)                                        // Si hay menos de 3 animales en los slots
         {
-            animales2.Add(animal);                                      // Añade el animal a la Lista
-            animales1.Add(animal.nombre);                               // Añade el nombre del animal a la lista
+            animales2.Add(animal);                                      // Aï¿½ade el animal a la Lista
+            animales1.Add(animal.nombre);                               // Aï¿½ade el nombre del animal a la lista
         }
 
         if (animales2.Count == 3)                                       // una vez que hay 3 animales en los slots
@@ -58,7 +58,7 @@ public class Mati_Cruza : MonoBehaviour
             Text TextoPorcentaje = GameObject.FindGameObjectWithTag("txt_porcentaje").GetComponent<Text>();                         // Variable de texto de porcentaje
             foreach (Mati_CruzasAnimales a in cruzas)                                                                               // Por cada animal en la Lista de cruzas
             {
-                if ((a.nombre.Contains(animales1[0])) && (a.nombre.Contains(animales1[1])) && (a.nombre.Contains(animales1[2])))    // Si un animal que está dentro del slot contiene parte del nombre de la cruza
+                if ((a.nombre.Contains(animales1[0])) && (a.nombre.Contains(animales1[1])) && (a.nombre.Contains(animales1[2])))    // Si un animal que estï¿½ dentro del slot contiene parte del nombre de la cruza
                 {
                     print("Cruza" + a.id);
                     print(PlayerPrefs.GetInt("Cruza" + a.id));
@@ -78,14 +78,14 @@ public class Mati_Cruza : MonoBehaviour
             {
                 if (RetenerAnimal.precio / divisorCosto <= PlayerPrefs.GetInt("Moneditas")) // Si el costo del animal es menor a la plata que tiene el jugador (Osea, si tengo plata para comprar)
                 {
-                    Boton.interactable = true;                              // Activa el botón
+                    Boton.interactable = true;                              // Activa el botï¿½n
                 }
             }
         }
 
     }
 
-    public void Quitar(Mati_Animales animal)                            // Este método es llamado desde la tarjeta del animal
+    public void Quitar(Mati_Animales animal)                            // Este mï¿½todo es llamado desde la tarjeta del animal
     {
         animales2.Remove(animal);                                       // Quita el animal de la lista
         animales1.Remove(animal.nombre);
@@ -94,7 +94,7 @@ public class Mati_Cruza : MonoBehaviour
         if (animales2.Count < 3)                                        // Si hay menos de 3 animales en el slot
         {
             HayObjetos = false;                                         // Desactiva el bool
-            Boton.interactable = false;                                 // Desactiva el botón
+            Boton.interactable = false;                                 // Desactiva el botï¿½n
 
             Text TextoMonedas = GameObject.FindGameObjectWithTag("txt_monedas").GetComponent<Text>();                         
             Text TextoPorcentaje = GameObject.FindGameObjectWithTag("txt_porcentaje").GetComponent<Text>();
@@ -104,7 +104,7 @@ public class Mati_Cruza : MonoBehaviour
         }
     }
 
-    public void Craftear()                                              // Método llamado desde el botón de cruzar animal
+    public void Craftear()                                              // Mï¿½todo llamado desde el botï¿½n de cruzar animal
     {
         PlayerPrefs.SetInt("ImpuestoXDiasSinCruzas", 0);
         int plata = PlayerPrefs.GetInt("Moneditas");                    // Creo variable que obtiene las monedas que tengo
@@ -118,7 +118,7 @@ public class Mati_Cruza : MonoBehaviour
         PlayerPrefs.SetInt("combinarTotales", PlayerPrefs.GetInt("combinarTotales") + 1);
 
 
-        int random = Random.Range(0, 101);                              // número random del 0 al 100
+        int random = Random.Range(0, 101);                              // nï¿½mero random del 0 al 100
 
 
         PlayerPrefs.SetInt("indexCurrentCruza",RetenerAnimal.id);       // ID para la pantalla de animal nuevo.
@@ -127,7 +127,7 @@ public class Mati_Cruza : MonoBehaviour
         {
 
             string cantidad = "Cantidad";                               // string
-            if (a.Contains("Ara"))                                      // El playerpref de la Araña está como "CantidadArana".
+            if (a.Contains("Ara"))                                      // El playerpref de la Araï¿½a estï¿½ como "CantidadArana".
             {
                 int restar = PlayerPrefs.GetInt(cantidad + "Arana");
                 restar--;
@@ -136,7 +136,7 @@ public class Mati_Cruza : MonoBehaviour
             }
             else if (a == "Ave Secretaria")
             {
-                int restar = PlayerPrefs.GetInt(cantidad + "Ave");      // El playerpref del Ave Secretaria está como "CantidadAve"
+                int restar = PlayerPrefs.GetInt(cantidad + "Ave");      // El playerpref del Ave Secretaria estï¿½ como "CantidadAve"
                 restar--;
                 PlayerPrefs.SetInt(cantidad + "Ave", restar);
             }
@@ -151,9 +151,9 @@ public class Mati_Cruza : MonoBehaviour
         }
 
 
-        if (random > RetenerAnimal.porcentaje)                                  // (Cruza fallida) Si el número random resulta ser mayor que el porcentaje del animal.
+        if (random > RetenerAnimal.porcentaje)                                  // (Cruza fallida) Si el nï¿½mero random resulta ser mayor que el porcentaje del animal.
         {
-            if(PlayerPrefs.GetString("PrimeraCombinacion") == "true")           // Si es la primera combinación que hago.
+            if(PlayerPrefs.GetString("PrimeraCombinacion") == "true")           // Si es la primera combinaciï¿½n que hago.
             {
 
                 PlayerPrefs.SetString("PrimeraCombinacion", "false");           // Cambio el player pref a false
@@ -168,13 +168,13 @@ public class Mati_Cruza : MonoBehaviour
                     PlayerPrefs.SetInt("totalCodex", PlayerPrefs.GetInt("totalCodex") + 1);
                 }
             }
-            else                                                                // Si no es la primera combinación que hago
+            else                                                                // Si no es la primera combinaciï¿½n que hago
             {                                                           
                 SceneManager.LoadScene(9);                                      // Cambio a escena de cruza fallida
                 PlayerPrefs.SetInt("cruzasFalla", PlayerPrefs.GetInt("cruzasFalla") + 1);
             }
         }
-        else                                                            // (Cruza exitosa) En el caso de que el número random NO sea mayor al porcentaje
+        else                                                            // (Cruza exitosa) En el caso de que el nï¿½mero random NO sea mayor al porcentaje
         {
             SceneManager.LoadScene(6);                                  // Cambia a escena de animal nuevo
             PlayerPrefs.SetInt("cruzasExito", PlayerPrefs.GetInt("cruzasExito") + 1);
@@ -202,9 +202,9 @@ public class Mati_Cruza : MonoBehaviour
 
           }*/
 
-            /*else if (animales1.Contains("Araña") && animales1.Contains("Cocodrilo") && animales1.Contains("Carpincho"))
+            /*else if (animales1.Contains("Araï¿½a") && animales1.Contains("Cocodrilo") && animales1.Contains("Carpincho"))
             {
-                print("Araña_Cocodrilo_Carpincho");
+                print("Araï¿½a_Cocodrilo_Carpincho");
             }
             else if (animales1.Contains("Murcielago") && animales1.Contains("Cocodrilo") && animales1.Contains("Carpincho"))
             {

@@ -15,7 +15,19 @@ public class EventosAnalytics : MonoBehaviour
 
 
     // Start is called before the first frame update
-    
+    async void Start()
+    {
+        try
+        {
+            var options = new InitializationOptions();
+            options.SetEnvironmentName("ZoonoLogico_CL2");
+            await UnityServices.InitializeAsync(options);
+        }
+        catch (ConsentCheckException e)
+        {
+            // Something went wrong when checking the GeoIP, check the e.Reason and handle appropriately.
+        }
+    }
 
     public void ConsentGiven()
     {
@@ -66,7 +78,7 @@ public class EventosAnalytics : MonoBehaviour
             {"logro26", PlayerPrefs.GetInt("Logro26")},
             {"logro27", PlayerPrefs.GetInt("Logro27")},
             {"logro28", PlayerPrefs.GetInt("Logro28")},
-        });  //TERMINADO
+        });  
 
         Debug.Log("dinero " + PlayerPrefs.GetInt("Moneditas"));
         Debug.Log("cruzas_exitosas " + PlayerPrefs.GetInt("cruzasExito"));
@@ -96,7 +108,7 @@ public class EventosAnalytics : MonoBehaviour
             {"cantidad_arana", PlayerPrefs.GetInt("AranasTotales")},
             {"cantidad_carpincho", PlayerPrefs.GetInt("CarpinchosTotales")},
 
-        });  //TERMINADO
+        }); 
 
         Debug.Log("vez" +  PlayerPrefs.GetInt("vezCompra"));
         Debug.Log("animal " + PlayerPrefs.GetString("animalCompra"));
@@ -118,7 +130,7 @@ public class EventosAnalytics : MonoBehaviour
             {"numero_id", PlayerPrefs.GetInt("indexCurrentCruza")},
             {"vez", PlayerPrefs.GetInt("combinarTotales")},
 
-        });  //TERMINADO
+        });  
 
         Debug.Log("animal3" + PlayerPrefs.GetString("animalSlot3"));
         Debug.Log("animal2" + PlayerPrefs.GetString("animalSlot2"));
@@ -171,7 +183,7 @@ public class EventosAnalytics : MonoBehaviour
             {"logro26", PlayerPrefs.GetInt("Logro26")},
             {"logro27", PlayerPrefs.GetInt("Logro27")},
             {"logro28", PlayerPrefs.GetInt("Logro28")},
-        }); //TERMINADO
+        }); 
 
         Debug.Log("tiempo_juego" + PlayerPrefs.GetInt("TiempoJuego"));
         Debug.Log("cruzas_fallidas" + PlayerPrefs.GetInt("cruzasFalla"));
@@ -233,7 +245,7 @@ public class EventosAnalytics : MonoBehaviour
             {"logro26", PlayerPrefs.GetInt("Logro26")},
             {"logro27", PlayerPrefs.GetInt("Logro27")},
             {"logro28", PlayerPrefs.GetInt("Logro28")},
-        }); //TERMINADO
+        }); 
 
         Debug.Log("tiempo_juego" + PlayerPrefs.GetInt("TiempoJuego"));
         Debug.Log("cruzas_fallidas" + PlayerPrefs.GetInt("cruzasFalla"));
@@ -253,7 +265,7 @@ public class EventosAnalytics : MonoBehaviour
         AnalyticsService.Instance.CustomData("iniciar_partida", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("inicioPartidaTotales")},
         
-        }); //TERMINADO
+        }); 
         Debug.Log("vez" + PlayerPrefs.GetInt("inicioPartidaTotales"));
     }
 
@@ -262,7 +274,7 @@ public class EventosAnalytics : MonoBehaviour
         AnalyticsService.Instance.CustomData("continuar_partida", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("continuarPartidaTotales")},
 
-        }); //TERMINADO
+        }); 
         Debug.Log("vez" + PlayerPrefs.GetInt("continuarPartidaTotales"));
 
     }
@@ -272,7 +284,7 @@ public class EventosAnalytics : MonoBehaviour
         AnalyticsService.Instance.CustomData("codex", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("codexTotales")},
 
-        }); //TERMINADO
+        }); 
         Debug.Log("vez" + PlayerPrefs.GetInt("codexTotales"));
 
     }
@@ -282,7 +294,7 @@ public class EventosAnalytics : MonoBehaviour
         AnalyticsService.Instance.CustomData("ver_mapa", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("mapaTotales")},
 
-        }); //TERMINADO
+        }); 
         Debug.Log("vez" + PlayerPrefs.GetInt("mapaTotales"));
     }
 
@@ -291,7 +303,7 @@ public class EventosAnalytics : MonoBehaviour
         AnalyticsService.Instance.CustomData("borrar_animal", new Dictionary<string, object>(){
             {"numero_id", PlayerPrefs.GetInt("IndexDesocuparJaula")},
 
-        }); //TERMINADO
+        }); 
         Debug.Log("numero_id" + PlayerPrefs.GetInt("IndexDesocuparJaula"));
     }
 
@@ -300,7 +312,7 @@ public class EventosAnalytics : MonoBehaviour
         AnalyticsService.Instance.CustomData("stasis", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("stasisTotales")},
 
-        }); //TERMINADO
+        }); 
         Debug.Log("vez" + PlayerPrefs.GetInt("stasisTotales"));
     }
 
@@ -308,8 +320,9 @@ public class EventosAnalytics : MonoBehaviour
     {
         AnalyticsService.Instance.CustomData("leer_tutorial", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("tutorialTotales")},
+ 
 
-        }); //TERMINADO
+        }); 
         Debug.Log("vez" + PlayerPrefs.GetInt("tutorialTotales"));
     }
 
@@ -322,7 +335,7 @@ public class EventosAnalytics : MonoBehaviour
             {"dinero", PlayerPrefs.GetInt("Moneditas")},
             {"tiempo", PlayerPrefs.GetInt("TiempoJuego")},
 
-        }); //TERMINADO
+        }); 
 
         Debug.Log("popularidad" + PlayerPrefs.GetInt("Popularidad"));
         Debug.Log("cupos" + PlayerPrefs.GetInt("JaulasOcupadas"));
@@ -338,7 +351,7 @@ public class EventosAnalytics : MonoBehaviour
             {"opcionElegida", PlayerPrefs.GetInt("eventoElegido")},
 
 
-        }); //TERMINADO
+        }); 
         Debug.Log("numero_id" + PlayerPrefs.GetInt("eventNumber"));
         Debug.Log("opcionElegida" + PlayerPrefs.GetInt("eventoElegido"));
     }
@@ -348,7 +361,7 @@ public class EventosAnalytics : MonoBehaviour
         AnalyticsService.Instance.CustomData("mandar_a_stasis", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("enviarStasisTotales")},
 
-        }); //TERMINADO
+        }); 
         Debug.Log("vez" + PlayerPrefs.GetInt("enviarStasisTotales"));
     }
 
@@ -357,7 +370,7 @@ public class EventosAnalytics : MonoBehaviour
         AnalyticsService.Instance.CustomData("mandar_a_lazaro", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("enviarLazaroTotales")},
 
-        }); //TERMINADO
+        }); 
         Debug.Log("vez" + PlayerPrefs.GetInt("enviarLazaroTotales"));
     }
 
@@ -369,7 +382,7 @@ public class EventosAnalytics : MonoBehaviour
             {"redaccion", PlayerPrefs.GetInt("CalifRedaccion")},
             {"contenido", PlayerPrefs.GetInt("CalifContenido")},
 
-        }); //TERMINADO
+        }); 
         Debug.Log("graficos" + PlayerPrefs.GetInt("CalifGraficos"));
         Debug.Log("jugabilidad" + PlayerPrefs.GetInt("CalifJugabilidad"));
         Debug.Log("redaccion" + PlayerPrefs.GetInt("CalifRedaccion"));
@@ -408,18 +421,103 @@ public class EventosAnalytics : MonoBehaviour
             {"logro26", PlayerPrefs.GetInt("Logro26")},
             {"logro27", PlayerPrefs.GetInt("Logro27")},
             {"logro28", PlayerPrefs.GetInt("Logro28")},
-        }); //TERMINADO
+        }); 
     }
 
-    public void minigame()
+    public void saltear_cinematica()
+    {
+        AnalyticsService.Instance.CustomData("saltear_cinematica", new Dictionary<string, object>(){
+            {"vez", PlayerPrefs.GetInt("cinematicasSalteadas")},
+            {"cinematica", PlayerPrefs.GetString("Cinematica")},
+
+        }); 
+        Debug.Log("vez" + PlayerPrefs.GetInt("cinematicasSalteadas"));
+        Debug.Log("vez" + PlayerPrefs.GetInt("Cinematica"));
+    }
+
+    public void cartas_abiertas()
+    {
+        AnalyticsService.Instance.CustomData("cartas_abiertas", new Dictionary<string, object>(){
+            {"vez", PlayerPrefs.GetInt("cartasLeidasTotales")},
+
+        }); 
+        Debug.Log("vez" + PlayerPrefs.GetInt("cartasLeidasTotales"));
+    }
+
+   public void minigame()
     {
         AnalyticsService.Instance.CustomData("minigame", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("MinigameVez")},
 
-        }); //TERMINADO
+        }); 
 
         Debug.Log("vez" + PlayerPrefs.GetInt("MinigameVez"));
     }
+
+    public void alimentar(int jaulaIndex)
+    {
+        AnalyticsService.Instance.CustomData("alimentar", new Dictionary<string, object>(){
+            {"saciedad_pre_alimento", PlayerPrefs.GetInt("SaciedadJaula" + jaulaIndex)},
+            {"cant_comida_dada", PlayerPrefs.GetInt("FeedJaula" + jaulaIndex)},
+            {"vez", PlayerPrefs.GetInt("alimentarAnimalTotal")},
+        }); 
+    }
+
+    public void animal_fallecido()
+    {
+        AnalyticsService.Instance.CustomData("animal_fallecido", new Dictionary<string, object>(){
+            {"dias", PlayerPrefs.GetInt("Dias")},
+            {"vez", PlayerPrefs.GetInt("animalMuertoTotal")},
+            {"cupos", PlayerPrefs.GetInt("JaulasOcupadas")},
+        }); 
+    }
+
+    public void comprar_comida(int cantidadComprada)
+    {
+        AnalyticsService.Instance.CustomData("comprar_comida", new Dictionary<string, object>(){
+            {"vez", PlayerPrefs.GetInt("comidaCompradaTotal")},
+            {"dias", PlayerPrefs.GetInt("Dias")},
+            {"dinero", PlayerPrefs.GetInt("Moneditas")},
+            {"cantidad_comprada", PlayerPrefs.GetInt("cantidadComprada")},
+        });
+    }
+
+
+
+    public void salir_tutorial()
+    {
+        AnalyticsService.Instance.CustomData("salir_tutorial", new Dictionary<string, object>(){
+            {"vez", PlayerPrefs.GetInt("tutorialesrechazados")},
+
+        }); 
+        Debug.Log("vez" + PlayerPrefs.GetInt("tutorialesrechazados"));
+    }
+
+    public void abrir_tutorial()
+    {
+        AnalyticsService.Instance.CustomData("abrir_tutorial", new Dictionary<string, object>(){
+            {"vez", PlayerPrefs.GetInt("tutorialesAbiertos")},
+
+
+        }); 
+        Debug.Log("vez" + PlayerPrefs.GetInt("tutorialesAbiertos"));
+    }
+
+    public void aceptar_tutorial()
+    {
+        AnalyticsService.Instance.CustomData("aceptar_tutorial", new Dictionary<string, object>(){
+            {"vez", PlayerPrefs.GetInt("tutorialSeguidos")},
+
+
+        }); 
+        Debug.Log("vez" + PlayerPrefs.GetInt("tutorialSeguidos"));
+    }
+    
+    
+    //Analytics de todos los juegos escritos y corregidos
+
+
+
 }
 
 
