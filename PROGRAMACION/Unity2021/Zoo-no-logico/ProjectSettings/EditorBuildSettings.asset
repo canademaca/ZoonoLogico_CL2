@@ -251,4 +251,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial1/Mapa6.unity
     guid: 3ad8b47cf8ff0f94cac971641192afa8
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1/Tienda3.unity
+    guid: c232fa57b48c75043909b26e5a59e990
   m_configObjects: {}
