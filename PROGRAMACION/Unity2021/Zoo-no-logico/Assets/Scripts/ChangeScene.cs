@@ -17,6 +17,7 @@ public class ChangeScene : MonoBehaviour {
     {
         ANALYTICS = GameObject.FindGameObjectWithTag("ANALYTICS");
 
+
     }
 
 
@@ -59,4 +60,11 @@ public class ChangeScene : MonoBehaviour {
         sound.enabled = true;
         DontDestroyOnLoad(this);
     }
+
+
 }
+
+
+
+
+

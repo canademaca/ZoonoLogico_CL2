@@ -156,7 +156,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial1/Mapa.unity
     guid: 2b27dcc507dc75c4fad05b88d82131e0
   - enabled: 1
-    path: Assets/Scenes/Tutorial1/Mapa2.unity
+    path: Assets/Scenes/Tutorial1/Mapa7.unity
     guid: 9876e19e56283644bb099a62fb01b5c2
   - enabled: 1
     path: Assets/Scenes/Tutorial1/Pantalla de Inicio 1.unity
@@ -233,4 +233,22 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/cinem\xE1tica.unity"
     guid: 85cb0102d7b015d46853803e7d1f04be
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1/Mapa1.unity
+    guid: 31f6aa839ccfdb24db45371bdab07380
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1/Mapa2.unity
+    guid: 183135f77b666c149bddae5e07a96c38
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1/Mapa3.unity
+    guid: b25d5147028a63a42ab4f8c4f203e8fc
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1/Mapa4.unity
+    guid: 924e68277f8ce7241b1a8c1c22775192
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1/Mapa5.unity
+    guid: 1dd95f992943b234695ad2f486552c5a
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1/Mapa6.unity
+    guid: 3ad8b47cf8ff0f94cac971641192afa8
   m_configObjects: {}
