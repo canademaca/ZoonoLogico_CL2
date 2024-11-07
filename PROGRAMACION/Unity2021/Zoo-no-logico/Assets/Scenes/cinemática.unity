@@ -447,7 +447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 216876200}
-  targetGameObject: {fileID: 803514486}
+  targetGameObject: {fileID: 675583493}
   nextButton: {fileID: 12199136}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3
@@ -657,7 +657,6 @@ Transform:
   - {fileID: 641059135}
   - {fileID: 653151166}
   - {fileID: 1333894310}
-  - {fileID: 128233350}
   - {fileID: 602459129}
   m_Father: {fileID: 174675818}
   m_RootOrder: 12
@@ -1255,7 +1254,7 @@ MonoBehaviour:
   onDialogComplete:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 128233351}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DialogButtonController, Assembly-CSharp
         m_MethodName: HighlightButton
         m_Mode: 1
@@ -2616,7 +2615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 1815501094}
-  targetGameObject: {fileID: 1984168894}
+  targetGameObject: {fileID: 1943524788}
   nextButton: {fileID: 123235161}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3
@@ -2874,157 +2873,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127778497}
-  m_CullTransparentMesh: 1
---- !u!1 &128233349
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 128233350}
-  - component: {fileID: 128233354}
-  - component: {fileID: 128233353}
-  - component: {fileID: 128233352}
-  - component: {fileID: 128233351}
-  m_Layer: 5
-  m_Name: Continuar (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &128233350
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128233349}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.023884242, y: 0.023838552, z: 0.022231834}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 35947578}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.7607265, y: -4.6}
-  m_SizeDelta: {x: 111.43, y: 36.32}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &128233351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128233349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99983894092abac4582d750a44aaa1a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentGameObject: {fileID: 35947577}
-  targetGameObject: {fileID: 35947577}
-  nextButton: {fileID: 128233352}
-  highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
-  blinkDuration: 0.3
---- !u!114 &128233352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128233349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 0
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 128233353}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 128233351}
-        m_TargetAssemblyTypeName: DialogButtonController, Assembly-CSharp
-        m_MethodName: ActivateNext
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &128233353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128233349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4b0fbb24255f7de4eb91620844a789ab, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &128233354
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128233349}
   m_CullTransparentMesh: 1
 --- !u!1 &128983378
 GameObject:
@@ -5794,7 +5642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 214236388}
-  targetGameObject: {fileID: 71063130}
+  targetGameObject: {fileID: 1819251246}
   nextButton: {fileID: 215597700}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3
@@ -8111,7 +7959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 1733552595}
-  targetGameObject: {fileID: 1984168894}
+  targetGameObject: {fileID: 634226131}
   nextButton: {fileID: 305934186}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3
@@ -15073,7 +14921,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 35947578}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -19247,7 +19095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 804660659}
-  targetGameObject: {fileID: 1984168894}
+  targetGameObject: {fileID: 1896205163}
   nextButton: {fileID: 708952387}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3
@@ -20918,7 +20766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 1612542639}
-  targetGameObject: {fileID: 1984168894}
+  targetGameObject: {fileID: 1471455844}
   nextButton: {fileID: 752703874}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3
@@ -21272,7 +21120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 1876008271}
-  targetGameObject: {fileID: 1876008271}
+  targetGameObject: {fileID: 601898191}
   nextButton: {fileID: 759396523}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3
@@ -24777,7 +24625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 1676076559}
-  targetGameObject: {fileID: 2027525671}
+  targetGameObject: {fileID: 2021101307}
   nextButton: {fileID: 934174152}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3
@@ -27088,7 +26936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 369418048}
-  targetGameObject: {fileID: 379655107}
+  targetGameObject: {fileID: 128983378}
   nextButton: {fileID: 1018492187}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3
@@ -34822,18 +34670,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5346d47e794ef44bb636c32baa63359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  continuar: {fileID: 1226182597}
-  ganar: {fileID: 479151180}
-  perder: {fileID: 495465148}
-  fondo: {fileID: 945319322}
-  C01: {fileID: 1969329174}
-  C02: {fileID: 156034485}
-  C03: {fileID: 1805858492}
-  C04: {fileID: 756703076}
-  C05: {fileID: 1387169930}
-  C06: {fileID: 1427914917}
-  GOOD_END: {fileID: 476589702}
-  BAD_END: {fileID: 39348869}
+  cinematicas:
+  - {fileID: 1969329174}
+  - {fileID: 156034485}
+  - {fileID: 1805858492}
+  - {fileID: 756703076}
+  - {fileID: 1387169930}
+  - {fileID: 1427914917}
+  ganarCinematica: {fileID: 476589702}
+  perderCinematica: {fileID: 39348869}
 --- !u!4 &1290898157
 Transform:
   m_ObjectHideFlags: 0
@@ -34902,7 +34747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 1610000945}
-  targetGameObject: {fileID: 71063130}
+  targetGameObject: {fileID: 126617908}
   nextButton: {fileID: 1292330582}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3
@@ -38879,7 +38724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 436831295}
-  targetGameObject: {fileID: 436831295}
+  targetGameObject: {fileID: 35947577}
   nextButton: {fileID: 1455653990}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3
@@ -43158,7 +43003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 1949547717}
-  targetGameObject: {fileID: 1949547717}
+  targetGameObject: {fileID: 1998235267}
   nextButton: {fileID: 1577018148}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3
@@ -44473,7 +44318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 379655107}
-  targetGameObject: {fileID: 1984168894}
+  targetGameObject: {fileID: 369418048}
   nextButton: {fileID: 1655714272}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3
@@ -47743,7 +47588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 1053250606}
-  targetGameObject: {fileID: 71063130}
+  targetGameObject: {fileID: 719903045}
   nextButton: {fileID: 1770585447}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3
@@ -49171,7 +49016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 39348869}
-  targetGameObject: {fileID: 39348869}
+  targetGameObject: {fileID: 1978744176}
   nextButton: {fileID: 1817640558}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3
@@ -54801,7 +54646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameObject: {fileID: 601898191}
-  targetGameObject: {fileID: 601898191}
+  targetGameObject: {fileID: 1263081462}
   nextButton: {fileID: 1980988499}
   highlightColor: {r: 0.16470589, g: 0.30980393, b: 0.13333334, a: 1}
   blinkDuration: 0.3

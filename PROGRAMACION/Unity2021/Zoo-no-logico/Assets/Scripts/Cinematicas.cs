@@ -5,87 +5,54 @@ using UnityEngine.SceneManagement;
 
 public class Cinematicas : MonoBehaviour
 {
-  
-    [SerializeField] public GameObject continuar;
-    [SerializeField] public GameObject ganar;
-    [SerializeField] public GameObject perder;
-    [SerializeField] public GameObject fondo;
+   [SerializeField] public GameObject[] cinematicas; // Arreglo de GameObjects de las cinemáticas
+   [SerializeField] public GameObject ganarCinematica; // Cinemática de ganar
+   [SerializeField] public GameObject perderCinematica; // Cinemática de perder
 
-    [SerializeField] public GameObject C01;
-    [SerializeField] public GameObject C02;
-    [SerializeField] public GameObject C03;
-    [SerializeField] public GameObject C04;
-    [SerializeField] public GameObject C05;
-    [SerializeField] public GameObject C06;
-    [SerializeField] public GameObject GOOD_END;
-    [SerializeField] public GameObject BAD_END;
+   private int indiceCinematica;
+   private string estadoJuego;
 
-    
+   void Start()
+   {
+       estadoJuego = PlayerPrefs.GetString("EstadoJuego", "Normal");
+       indiceCinematica = PlayerPrefs.GetInt("IndiceCinematica", 0);
 
+       ActivarCinematica();
+   }
 
-    // Start is called before the first frame update 
+   void ActivarCinematica()
+   {
+       if (estadoJuego == "Ganar")
+       {
+           ganarCinematica.SetActive(true);
+       }
+       else if (estadoJuego == "Perder")
+       {
+           perderCinematica.SetActive(true);
+       }
+       else if (indiceCinematica >= 0 && indiceCinematica < cinematicas.Length)
+       {
+           cinematicas[indiceCinematica].SetActive(true);
+       }
+       else
+       {
+           Debug.Log("No hay más cinemáticas para mostrar.");
+       }
+   }
 
-    void Start()
-    {
-        
-    }
+   public void MostrarSiguienteCinematica()
+   {
+       if (estadoJuego != "Ganar" && estadoJuego != "Perder")
+       {
+           if (indiceCinematica < cinematicas.Length)
+           {
+               cinematicas[indiceCinematica].SetActive(false);
+           }
 
-    void Awake()
-    {
-        switch (PlayerPrefs.GetString("Cinematica"))
-        {
-            case "C01":
-                C01.SetActive(true);
-               
-                break;
-            case "C02":
-                C02.SetActive(true);
-                
-                break;
-            case "C03":
-                C03.SetActive(true);
-                
-                break;
-            case "C04":
-                C04.SetActive(true);
-                
-                break;
-            case "C05":
-                C05.SetActive(true);
-                
-                break;
-            case "C06":
-                C06.SetActive(true);
-                
-                break;
-            case "GOOD_END":
-                GOOD_END.SetActive(true);
-                
-                break;
-            case "BAD_END":
-                BAD_END.SetActive(true);
-                
-                break;
+           indiceCinematica++;
+           PlayerPrefs.SetInt("IndiceCinematica", indiceCinematica);
 
-
-            default:
-                print("Cinematica no existe");
-                break;
-        }
-        
-        PlayerPrefs.SetInt("EventoCartas", 1);
-       
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    } 
-
-   
-    
-
-    
+           ActivarCinematica();
+       }
+   }
 }
