@@ -20,7 +20,6 @@ public class EventosAnalytics : MonoBehaviour
         try
         {
             var options = new InitializationOptions();
-            options.SetEnvironmentName("ZoonoLogico_CL2");
             await UnityServices.InitializeAsync(options);
         }
         catch (ConsentCheckException e)
