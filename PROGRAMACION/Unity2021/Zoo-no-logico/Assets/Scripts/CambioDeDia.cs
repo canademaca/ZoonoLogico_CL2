@@ -4,7 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class CambioDeDia : MonoBehaviour {
+public class CambioDeDia : MonoBehaviour 
+{
+
+    public int Monedas;
+    public GameObject notif;
     public Text textoTurno;
     public int numTurno;
     public GameObject Pantalla;
@@ -80,14 +84,48 @@ public class CambioDeDia : MonoBehaviour {
             PlayerPrefs.SetInt("CantidadSerpiente", PlayerPrefs.GetInt("CantidadSerpiente") + 1);
             StartCoroutine(DestruirObjeto(serpienteDesbloqueada));
         }
+        for (int i = 0; i < GameObject.FindGameObjectsWithTag("TextoMonedas").Length; i++)
+        {
+            GameObject.FindGameObjectsWithTag("TextoMonedas")[i].GetComponent<Text>().text = Monedas.ToString();
+        }
+        Monedas = PlayerPrefs.GetInt("Moneditas");
 
         PlayerPrefs.SetString("Slot1", "");
         PlayerPrefs.SetString("Slot2", "");
         PlayerPrefs.SetString("Slot3", "");
     }
 
+    public void NotificacionStasis()
+    {
+        print(PlayerPrefs.GetInt("DineroNeg"));
+
+        if (Monedas < 0 && PlayerPrefs.GetInt("DineroNeg") == 0)
+        {
+            PlayerPrefs.SetInt("DineroNeg", 1);
+            notif.SetActive(true);
+        }
+    }
+
+    public void DesactivarNoti()
+    {
+        notif.SetActive(false);
+    }
+
+    public void Minijuego(int SceneID)
+    {
+        print(PlayerPrefs.GetInt("Minigame"));
+
+        if (Monedas < 1000 && PlayerPrefs.GetInt("Minigame") == 0)
+        {
+            SceneManager.LoadScene(SceneID);
+            PlayerPrefs.SetInt("Minigame", 1);
+        }
+    }
+
     public void Pasar()
     {
+        Minijuego(17);
+
         if (!PantallaPostEvento)
         {
             numTurno++;
@@ -95,24 +133,25 @@ public class CambioDeDia : MonoBehaviour {
             Pantalla.SetActive(false);
             PlayerPrefs.SetInt("Dias", numTurno);
             PopularidadBarra.SetActive(true);
+            PlayerPrefs.SetInt("EventoCartas", 1);
 
             diasDesdeUltimaCinematica++;
-
-            // Verifica si pasaron dos días desde la última cinemática
-            if (diasDesdeUltimaCinematica >= 2)
-            {
-                CinematicaNumero = PlayerPrefs.GetInt("CinematicaNumero");
-                CinematicaNumero += 1;
-                PlayerPrefs.SetInt("CinematicaNumero", CinematicaNumero);
-                PlayerPrefs.SetString("Cinematica", "C0" + CinematicaNumero);
-                SceneManager.LoadScene(75);
-                diasDesdeUltimaCinematica = 0; // Resetea el contador
-            }
         }
         else
         {
             Pantalla.SetActive(false);
             PlayerPrefs.SetInt("ImpuestoXDiasSinCruzas", PlayerPrefs.GetInt("ImpuestoXDiasSinCruzas"));
+        }
+
+        // Verifica si pasaron dos días desde la última cinemática
+        if (diasDesdeUltimaCinematica >= 2)
+        {
+            CinematicaNumero = PlayerPrefs.GetInt("CinematicaNumero");
+            CinematicaNumero += 1;
+            PlayerPrefs.SetInt("CinematicaNumero", CinematicaNumero);
+            PlayerPrefs.SetString("Cinematica", "C0" + CinematicaNumero);
+            SceneManager.LoadScene(75);
+            diasDesdeUltimaCinematica = 0; // Resetea el contador
         }
     }
 
@@ -157,6 +196,8 @@ public class CambioDeDia : MonoBehaviour {
             PlayerPrefs.SetString("EstadoJuego", "Ganar");
             SceneManager.LoadScene(75);
             PlayerPrefs.SetInt("Ganaste", 1);
+            PlayerPrefs.SetInt("ActivadorCalificacion", 1);
+            
             ANALYTICS.SendMessage("ganar");
         }
         else if (Popularidad <= 0 && PlayerPrefs.GetInt("Ganaste") == 0)
@@ -170,6 +211,18 @@ public class CambioDeDia : MonoBehaviour {
         {
             Pantalla.SetActive(true);
             PopularidadBarra.SetActive(false);
+        }
+
+        if (PlayerPrefs.GetInt("Ganaste") == 1)
+        {
+            PlayerPrefs.SetInt("CantidadCarpincho", 99);
+            PlayerPrefs.SetInt("CantidadArana", 99);
+            PlayerPrefs.SetInt("CantidadAve", 99);
+            PlayerPrefs.SetInt("CantidadZorro", 99);
+            PlayerPrefs.SetInt("CantidadCocodrilo", 99);
+            PlayerPrefs.SetInt("CantidadSerpiente", 99);
+            PlayerPrefs.SetInt("CantidadMurcielago", 99);
+            PlayerPrefs.SetInt("Moneditas", 999999999);
         }
     }
 

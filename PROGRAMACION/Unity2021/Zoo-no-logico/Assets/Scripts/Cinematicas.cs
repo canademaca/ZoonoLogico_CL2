@@ -55,4 +55,7 @@ public class Cinematicas : MonoBehaviour
            ActivarCinematica();
        }
    }
+
+   void Awake()
+    {PlayerPrefs.SetInt("EventoCartas", 1);}
 }

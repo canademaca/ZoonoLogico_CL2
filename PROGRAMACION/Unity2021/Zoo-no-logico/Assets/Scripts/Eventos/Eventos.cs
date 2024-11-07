@@ -218,7 +218,6 @@ public class Eventos : MonoBehaviour {
         opcion2Button.interactable = false;
         continuar.interactable = true;
         PlayerPrefs.SetInt("eventoElegido", 2);
-        ANALYTICS.SendMessage("leer_evento");
     }
 
     public void ClearEvent()
