@@ -27,7 +27,6 @@
 -define:UNITY_2021_2_OR_NEWER
 -define:UNITY_2021_3_OR_NEWER
 -define:UNITY_INCLUDE_TESTS
--define:UNITY_ANALYTICS
 -define:USE_SEARCH_ENGINE_API
 -define:USE_SEARCH_TABLE
 -define:USE_SEARCH_MODULE
@@ -443,7 +442,6 @@
 "Assets/Scripts/save-load/SaveSystem.cs"
 "Assets/Scripts/SellAnimal.cs"
 "Assets/Scripts/ShowPercent.cs"
-"Assets/Scripts/SliderSonidos.cs"
 "Assets/Scripts/Stasis.cs"
 "Assets/Scripts/StasisManager.cs"
 "Assets/Scripts/swipe_inventory.cs"
@@ -454,10 +452,7 @@
 "Assets/Scripts/TogglePerdida.cs"
 "Assets/Scripts/UIZoomImage.cs"
 "Assets/Scripts/UnlockStoreAnimals.cs"
-"Assets/Scripts/VidPlayer.cs"
 "Assets/SnakeMiniGame.cs"
-"Assets/Sonidos/MusicManager.cs"
-"Assets/Sonidos/Sonido Boton.cs"
 "Assets/Sonidos/Sound/Menu/SonidoMenu.cs"
 "Assets/TestFondo.cs"
 -langversion:9.0

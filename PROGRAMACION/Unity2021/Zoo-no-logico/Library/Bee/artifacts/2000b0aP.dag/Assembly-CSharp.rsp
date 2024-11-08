@@ -400,7 +400,6 @@
 "Assets/Scripts/save-load/SaveSystem.cs"
 "Assets/Scripts/SellAnimal.cs"
 "Assets/Scripts/ShowPercent.cs"
-"Assets/Scripts/SliderSonidos.cs"
 "Assets/Scripts/Stasis.cs"
 "Assets/Scripts/StasisManager.cs"
 "Assets/Scripts/swipe_inventory.cs"
@@ -411,10 +410,7 @@
 "Assets/Scripts/TogglePerdida.cs"
 "Assets/Scripts/UIZoomImage.cs"
 "Assets/Scripts/UnlockStoreAnimals.cs"
-"Assets/Scripts/VidPlayer.cs"
 "Assets/SnakeMiniGame.cs"
-"Assets/Sonidos/MusicManager.cs"
-"Assets/Sonidos/Sonido Boton.cs"
 "Assets/Sonidos/Sound/Menu/SonidoMenu.cs"
 "Assets/TestFondo.cs"
 -langversion:9.0

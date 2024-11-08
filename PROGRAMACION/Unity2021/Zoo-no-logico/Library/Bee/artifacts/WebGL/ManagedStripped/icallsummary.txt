@@ -36,7 +36,6 @@ UnityEngine.Application::get_platform
 UnityEngine.AsyncOperation::get_isDone
 UnityEngine.AsyncOperation::InternalDestroy
 UnityEngine.AudioSource::set_clip
-UnityEngine.AudioSource::set_volume
 UnityEngine.Behaviour::get_enabled
 UnityEngine.Behaviour::get_isActiveAndEnabled
 UnityEngine.Behaviour::set_enabled
@@ -712,8 +711,6 @@ UnityEngine.UIElements.UIR.Utility::WaitForCPUFencePassed
 UnityEngine.UISystemProfilerApi::AddMarker
 UnityEngine.UISystemProfilerApi::BeginSample
 UnityEngine.UISystemProfilerApi::EndSample
-UnityEngine.Video.VideoPlayer::Play
-UnityEngine.Video.VideoPlayer::set_url
 UnityEngine.Yoga.Native::YGConfigGetUseWebDefaults
 UnityEngine.Yoga.Native::YGNodeGetHasNewLayout
 UnityEngine.Yoga.Native::YGNodeIsDirty
