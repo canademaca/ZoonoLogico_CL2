@@ -429,6 +429,8 @@ m_ResolvedPackages:
     - 2.9.7
     - 2.10.0
     - 2.10.1
+    - 2.10.2
+    - 2.10.3
     - 3.0.0-pre.3
     - 3.0.0-pre.4
     - 3.0.0-pre.5
@@ -451,6 +453,8 @@ m_ResolvedPackages:
     - 2.9.7
     - 2.10.0
     - 2.10.1
+    - 2.10.2
+    - 2.10.3
     verified: 2.8.9
   dependencies:
   - name: com.unity.test-framework
@@ -745,6 +749,7 @@ m_ResolvedPackages:
     - 3.0.27
     - 3.0.28
     - 3.0.31
+    - 3.0.34
     compatible:
     - 3.0.15
     - 3.0.16
@@ -759,7 +764,8 @@ m_ResolvedPackages:
     - 3.0.27
     - 3.0.28
     - 3.0.31
-    verified: 3.0.31
+    - 3.0.34
+    verified: 3.0.34
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6

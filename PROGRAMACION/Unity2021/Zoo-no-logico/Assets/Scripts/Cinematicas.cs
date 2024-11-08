@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Cinematicas : MonoBehaviour
 {
-   [SerializeField] public GameObject[] cinematicas; // Arreglo de GameObjects de las cinemáticas
-   [SerializeField] public GameObject ganarCinematica; // Cinemática de ganar
-   [SerializeField] public GameObject perderCinematica; // Cinemática de perder
+   [SerializeField] public GameObject[] cinematicas; // Arreglo de GameObjects de las cinemï¿½ticas
+   [SerializeField] public GameObject ganarCinematica; // Cinemï¿½tica de ganar
+   [SerializeField] public GameObject perderCinematica; // Cinemï¿½tica de perder
 
    private int indiceCinematica;
    private string estadoJuego;
@@ -36,7 +36,7 @@ public class Cinematicas : MonoBehaviour
        }
        else
        {
-           Debug.Log("No hay más cinemáticas para mostrar.");
+           Debug.Log("No hay mï¿½s cinemï¿½ticas para mostrar.");
        }
    }
 

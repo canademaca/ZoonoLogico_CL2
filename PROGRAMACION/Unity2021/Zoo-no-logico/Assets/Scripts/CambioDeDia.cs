@@ -4,8 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class CambioDeDia : MonoBehaviour 
-{
+public class CambioDeDia : MonoBehaviour {
 
     public int Monedas;
     public GameObject notif;
