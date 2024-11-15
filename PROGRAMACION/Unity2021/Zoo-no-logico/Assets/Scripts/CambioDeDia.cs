@@ -123,7 +123,8 @@ public class CambioDeDia : MonoBehaviour
     }
 
     public void Pasar()
-    {
+    {   
+        Debug.Log("Nuevo dia");
         Minijuego(17);
 
         if (!PantallaPostEvento)
@@ -134,8 +135,43 @@ public class CambioDeDia : MonoBehaviour
             PlayerPrefs.SetInt("Dias", numTurno);
             PopularidadBarra.SetActive(true);
             PlayerPrefs.SetInt("EventoCartas", 1);
-
             diasDesdeUltimaCinematica++;
+            myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
+            Debug.Log(myCruzaList + " Cruza list");
+            print("Test: " + myCruzaList.cruza[0].popularidad);
+            for (int i = 0; i < 20; i++)
+            {
+                int feedCount = PlayerPrefs.GetInt("FeedJaula" + i);
+                if (PlayerPrefs.GetInt("SaciedadJaula" + i) > 0 && feedCount > 0)
+                {
+                    PlayerPrefs.SetInt("alimentarAnimalTotal", PlayerPrefs.GetInt("alimentarAnimalTotal") + 1);
+                    ANALYTICS.SendMessage("alimentar", i);
+                    for (int e = 0; e < feedCount; e++)
+                    {
+                        saciedadCtrl.AddSaciedadByJaula(i, feedCount);
+                        PlayerPrefs.SetInt("FeedJaula" + i, 0);
+                    }
+                }
+
+                PlayerPrefs.SetInt("SaciedadJaula" + i, PlayerPrefs.GetInt("SaciedadJaula" + i) - 10);
+                if ((PlayerPrefs.GetInt("JaulaActiva" + i) == 1) && PlayerPrefs.GetInt("SaciedadJaula" + i) <= 0)
+                {
+                    PlayerPrefs.SetInt("animalMuertoTotal", PlayerPrefs.GetInt("animalMuertoTotal") + 1);
+                    ANALYTICS.SendMessage("animal_fallecido", i);
+
+                    print(int.Parse(PlayerPrefs.GetString("Jaula" + i)));
+                    PlayerPrefs.SetInt("popularidad", PlayerPrefs.GetInt("popularidad") - myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Jaula" + i))].popularidad);
+
+                    PlayerPrefs.SetInt("JaulaActiva" + i, 0);
+                    PlayerPrefs.SetInt("SaciedadJaula" + i, 0);
+                    PlayerPrefs.SetInt("JaulasOcupadas", PlayerPrefs.GetInt("JaulasOcupadas") - 1);
+                    PlayerPrefs.SetString("Jaula" + i, "");
+
+                    PantallaAnimalFallecido.SetActive(true);
+                }
+
+                //PlayerPrefs.GetString("Jaula" + i);
+            }
         }
         else
         {
@@ -234,11 +270,12 @@ public class CambioDeDia : MonoBehaviour
         }
     }
 
-    IEnumerator DestruirObjeto(GameObject objeto)
+    private IEnumerator DestruirObjeto(GameObject objeto)
     {
+        //aranaDesbloqueada.transform.position = new Vector3(aranaDesbloqueada.transform.position.x - speed * Time.deltaTime, aranaDesbloqueada.transform.position.y, aranaDesbloqueada.transform.position.z);
         objeto.SetActive(true);
         yield return new WaitForSeconds(3);
         objeto.SetActive(false);
-        Destroy(objeto);
+        Destroy(aranaDesbloqueada);
     }
 }
