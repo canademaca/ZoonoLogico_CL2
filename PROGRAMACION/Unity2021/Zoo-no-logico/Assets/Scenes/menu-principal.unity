@@ -1394,6 +1394,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7cd69ee9afccea4eb40ee8854c62de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Monedas: 0
+  notif: {fileID: 0}
   textoTurno: {fileID: 0}
   numTurno: 0
   Pantalla: {fileID: 457022996}
@@ -5808,6 +5810,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7cd69ee9afccea4eb40ee8854c62de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Monedas: 0
+  notif: {fileID: 0}
   textoTurno: {fileID: 218527431}
   numTurno: 0
   Pantalla: {fileID: 1296787175}
@@ -8926,13 +8930,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7cd69ee9afccea4eb40ee8854c62de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Monedas: 0
+  notif: {fileID: 0}
   textoTurno: {fileID: 0}
   numTurno: 0
   Pantalla: {fileID: 0}
   PantallaPostEvento: {fileID: 0}
   PantallaPerder: {fileID: 0}
   PantallaGanar: {fileID: 0}
-  PantallaAnimalFallecido: {fileID: 0}
+  PantallaAnimalFallecido: {fileID: 634843806}
   Popularidad: 0
   PopularidadBarra: {fileID: 0}
   CinematicaNumero: 0
@@ -13748,6 +13754,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7cd69ee9afccea4eb40ee8854c62de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Monedas: 0
+  notif: {fileID: 0}
   textoTurno: {fileID: 0}
   numTurno: 0
   Pantalla: {fileID: 1296787175}

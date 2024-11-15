@@ -361,7 +361,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 1428987955}
-  comidaHandler: {fileID: 1239258582}
+  comidaHandler: {fileID: 4731740}
 --- !u!114 &4731740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1069,7 +1069,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 467901296}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 46586631}
 --- !u!114 &46586631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3067,7 +3067,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 467901296}
-  comidaHandler: {fileID: 1751164610}
+  comidaHandler: {fileID: 155972905}
 --- !u!114 &155972905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5719,7 +5719,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 1554102378}
-  comidaHandler: {fileID: 1751164610}
+  comidaHandler: {fileID: 310205722}
 --- !u!114 &310205722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6014,7 +6014,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 207123595}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 314289174}
 --- !u!114 &314289174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7432,7 +7432,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 1659763891}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 392403013}
 --- !u!114 &392403013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9976,7 +9976,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 714578236}
-  comidaHandler: {fileID: 571233363}
+  comidaHandler: {fileID: 548340547}
 --- !u!114 &548340547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11132,7 +11132,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 614156030}
-  comidaHandler: {fileID: 1818008957}
+  comidaHandler: {fileID: 601539141}
 --- !u!114 &601539141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11999,7 +11999,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 1537011801}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 639918971}
 --- !u!114 &639918971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12387,7 +12387,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 350419724}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 655956602}
 --- !u!114 &655956602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12900,7 +12900,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 714578236}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 692935108}
 --- !u!114 &692935108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13208,7 +13208,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 1277505190}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 698498890}
 --- !u!114 &698498890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14308,7 +14308,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 1428987955}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 760811375}
 --- !u!114 &760811375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14633,7 +14633,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 81321163}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 768349109}
 --- !u!114 &768349109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15333,7 +15333,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 59007824}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 808277687}
 --- !u!114 &808277687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16584,7 +16584,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 1583327659}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 984025855}
 --- !u!114 &879401296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19869,7 +19869,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 1512300402}
+  confirmacion: {fileID: 0}
   myCruzaList:
     cruza: []
 --- !u!114 &1049382368
@@ -21170,7 +21170,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 2015776178}
-  comidaHandler: {fileID: 310205722}
+  comidaHandler: {fileID: 1124867663}
 --- !u!114 &1124867663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21649,7 +21649,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 614156030}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 1146382422}
 --- !u!114 &1146382422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22379,7 +22379,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 1512300402}
+  confirmacion: {fileID: 0}
   myCruzaList:
     cruza: []
 --- !u!1 &1180043259
@@ -22568,7 +22568,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 1740093010}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 1198298096}
 --- !u!114 &1198298096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23256,7 +23256,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 81321163}
-  comidaHandler: {fileID: 1556276}
+  comidaHandler: {fileID: 1239258582}
 --- !u!114 &1239258582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24358,7 +24358,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 1277505190}
-  comidaHandler: {fileID: 1839616188}
+  comidaHandler: {fileID: 1272680087}
 --- !u!114 &1272680087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26851,7 +26851,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 1554102378}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 1423429644}
 --- !u!114 &1423429644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27370,7 +27370,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 1537011801}
-  comidaHandler: {fileID: 1239622832}
+  comidaHandler: {fileID: 1443803859}
 --- !u!114 &1443803859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33547,7 +33547,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 207123595}
-  comidaHandler: {fileID: 1556276}
+  comidaHandler: {fileID: 1713226806}
 --- !u!114 &1713226806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34376,7 +34376,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 1512300402}
+  confirmacion: {fileID: 0}
   myCruzaList:
     cruza: []
 --- !u!1 &1751164608
@@ -35194,7 +35194,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 915258257}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 1792230058}
 --- !u!114 &1792230058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35599,7 +35599,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 32410977}
-  comidaHandler: {fileID: 322734523}
+  comidaHandler: {fileID: 1818008957}
 --- !u!114 &1818008957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35924,7 +35924,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 1740093010}
-  comidaHandler: {fileID: 2034961897}
+  comidaHandler: {fileID: 1839616188}
 --- !u!114 &1839616188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37265,7 +37265,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 1939895574}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 1905319993}
 --- !u!114 &1905319993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38195,7 +38195,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 350419724}
-  comidaHandler: {fileID: 310205722}
+  comidaHandler: {fileID: 1957936764}
 --- !u!114 &1957936764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38927,7 +38927,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 32410977}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 1978348790}
 --- !u!114 &1978348790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40497,7 +40497,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 59007824}
-  comidaHandler: {fileID: 984025855}
+  comidaHandler: {fileID: 2034961897}
 --- !u!114 &2034961897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42559,7 +42559,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 2015776178}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 2142587192}
 --- !u!114 &2142587192
 MonoBehaviour:
   m_ObjectHideFlags: 0
