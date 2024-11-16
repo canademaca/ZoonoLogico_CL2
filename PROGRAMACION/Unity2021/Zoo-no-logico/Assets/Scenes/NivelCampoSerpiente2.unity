@@ -2729,8 +2729,8 @@ GameObject:
   - component: {fileID: 1344218171}
   - component: {fileID: 1344218170}
   - component: {fileID: 1344218169}
-  - component: {fileID: 1344218168}
   - component: {fileID: 1344218167}
+  - component: {fileID: 1344218172}
   m_Layer: 0
   m_Name: PAJARO
   m_TagString: Enemigo
@@ -2774,32 +2774,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 2
---- !u!61 &1344218168
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1344218165}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.1377933, y: 0.031859577}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.49, y: 3.62}
-    newSize: {x: 3.5, y: 1.41}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.2244134, y: 3.208746}
-  m_EdgeRadius: 0
 --- !u!114 &1344218169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2887,6 +2861,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &1344218172
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344218165}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.21289699, y: -0.00000021865954}
+  m_Size: {x: 3.0642064, y: 3.6200004}
+  m_Direction: 0
 --- !u!1 &1355576271
 GameObject:
   m_ObjectHideFlags: 0
@@ -3746,8 +3736,8 @@ GameObject:
   - component: {fileID: 1557968463}
   - component: {fileID: 1557968462}
   - component: {fileID: 1557968461}
-  - component: {fileID: 1557968460}
   - component: {fileID: 1557968459}
+  - component: {fileID: 1557968464}
   m_Layer: 0
   m_Name: MOUSE_0
   m_TagString: Enemigo
@@ -3791,32 +3781,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 2
---- !u!61 &1557968460
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557968457}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.08769584, y: -0.07977402}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.5, y: 1.41}
-    newSize: {x: 3.5, y: 1.41}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.3246083, y: 1.250452}
-  m_EdgeRadius: 0
 --- !u!114 &1557968461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3904,6 +3868,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &1557968464
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557968457}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000047683716}
+  m_Size: {x: 3.4999998, y: 1.4099998}
+  m_Direction: 1
 --- !u!1 &1579088686
 GameObject:
   m_ObjectHideFlags: 0
@@ -4200,8 +4180,8 @@ GameObject:
   - component: {fileID: 1592050954}
   - component: {fileID: 1592050953}
   - component: {fileID: 1592050952}
-  - component: {fileID: 1592050951}
   - component: {fileID: 1592050950}
+  - component: {fileID: 1592050955}
   m_Layer: 0
   m_Name: PAJARO
   m_TagString: Enemigo
@@ -4245,32 +4225,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 2
---- !u!61 &1592050951
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592050948}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.113560796, y: 0.07576609}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.49, y: 3.62}
-    newSize: {x: 3.5, y: 1.41}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.2728784, y: 3.493949}
-  m_EdgeRadius: 0
 --- !u!114 &1592050952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4358,6 +4312,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &1592050955
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592050948}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.22117142, y: 0.0000002053241}
+  m_Size: {x: 3.0476265, y: 3.62}
+  m_Direction: 0
 --- !u!1 &1681416945
 GameObject:
   m_ObjectHideFlags: 0
@@ -4922,9 +4892,9 @@ GameObject:
   - component: {fileID: 1952101842}
   - component: {fileID: 1952101846}
   - component: {fileID: 1952101845}
-  - component: {fileID: 1952101844}
   - component: {fileID: 1952101848}
   - component: {fileID: 1952101847}
+  - component: {fileID: 1952101849}
   m_Layer: 0
   m_Name: PAJARO
   m_TagString: AnimalCapturado
@@ -4947,32 +4917,6 @@ Transform:
   m_Father: {fileID: 1499133996}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1952101844
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1952101841}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.32274896, y: -0.04167652}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.92, y: 1.82}
-    newSize: {x: 4.92, y: 1.82}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.9666123, y: 1.9795256}
-  m_EdgeRadius: 0
 --- !u!50 &1952101845
 Rigidbody2D:
   serializedVersion: 4
@@ -5083,8 +5027,24 @@ MonoBehaviour:
   Bpoint: {fileID: 621321342}
   Perdiste: {fileID: 1266901384}
   Animal: {fileID: 1499133995}
-  Collider: {fileID: 1952101844}
+  Collider: {fileID: 1952101849}
   player3: {fileID: 1982035562}
+--- !u!70 &1952101849
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952101841}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.6323462, y: -0.000000075381536}
+  m_Size: {x: 3.9765263, y: 1.8200171}
+  m_Direction: 1
 --- !u!1 &1976244809
 GameObject:
   m_ObjectHideFlags: 0
@@ -5127,9 +5087,9 @@ GameObject:
   - component: {fileID: 1982035556}
   - component: {fileID: 1982035559}
   - component: {fileID: 1982035558}
-  - component: {fileID: 1982035557}
   - component: {fileID: 1982035561}
   - component: {fileID: 1982035562}
+  - component: {fileID: 1982035563}
   m_Layer: 5
   m_Name: Personaje
   m_TagString: Player
@@ -5152,32 +5112,6 @@ Transform:
   m_Father: {fileID: 248061763}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1982035557
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1982035555}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.5008968, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.86, y: 2.51}
-    newSize: {x: 2.86, y: 2.51}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.858206, y: 2.51}
-  m_EdgeRadius: 0
 --- !u!50 &1982035558
 Rigidbody2D:
   serializedVersion: 4
@@ -5298,9 +5232,25 @@ MonoBehaviour:
   animpl: {fileID: 1982035561}
   rb2d: {fileID: 1982035558}
   spritepl: {fileID: 1982035559}
-  Collider: {fileID: 1982035557}
+  Collider: {fileID: 1982035563}
   StandingHeight: {x: 1.858206, y: 2.51}
   CrouchingHeight: {x: 1.858206, y: 1.5}
+--- !u!70 &1982035563
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982035555}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.49413636, y: -0.091507}
+  m_Size: {x: 1.7253176, y: 2.6769874}
+  m_Direction: 0
 --- !u!1 &2005585558
 GameObject:
   m_ObjectHideFlags: 0
@@ -5805,8 +5755,8 @@ GameObject:
   - component: {fileID: 2103047561}
   - component: {fileID: 2103047560}
   - component: {fileID: 2103047564}
-  - component: {fileID: 2103047563}
   - component: {fileID: 2103047562}
+  - component: {fileID: 2103047565}
   m_Layer: 0
   m_Name: MOUSE_0
   m_TagString: Enemigo
@@ -5922,32 +5872,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 2
---- !u!61 &2103047563
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2103047558}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.10555953, y: -0.07977402}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.5, y: 1.41}
-    newSize: {x: 3.5, y: 1.41}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.2888808, y: 1.250452}
-  m_EdgeRadius: 0
 --- !u!114 &2103047564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5963,6 +5887,22 @@ MonoBehaviour:
   rbd2: {fileID: 2103047562}
   Apoint: {fileID: 1214327261}
   Bpoint: {fileID: 1478613867}
+--- !u!70 &2103047565
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103047558}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0000019073486, y: 0.00000047683716}
+  m_Size: {x: 3.4999998, y: 1.4099998}
+  m_Direction: 1
 --- !u!1 &2130314633
 GameObject:
   m_ObjectHideFlags: 0
@@ -5975,8 +5915,8 @@ GameObject:
   - component: {fileID: 2130314639}
   - component: {fileID: 2130314638}
   - component: {fileID: 2130314637}
-  - component: {fileID: 2130314636}
   - component: {fileID: 2130314635}
+  - component: {fileID: 2130314640}
   m_Layer: 0
   m_Name: PAJARO
   m_TagString: Enemigo
@@ -6020,32 +5960,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
---- !u!61 &2130314636
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130314633}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.12890458, y: 0.08269805}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.49, y: 3.62}
-    newSize: {x: 3.5, y: 1.41}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.2421908, y: 3.4954786}
-  m_EdgeRadius: 0
 --- !u!114 &2130314637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6133,6 +6047,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &2130314640
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130314633}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.2265882, y: 0.00000011117521}
+  m_Size: {x: 3.0368314, y: 3.6199996}
+  m_Direction: 0
 --- !u!1 &2130730553
 GameObject:
   m_ObjectHideFlags: 0

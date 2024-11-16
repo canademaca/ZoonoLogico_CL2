@@ -29,7 +29,7 @@ public class MovimientoCampo : MonoBehaviour
 
 
 
-    public enum GameState { Vivo, Muerto, Revivir, Daño }
+    public enum GameState { Vivo, Muerto, Revivir, Hurt }
 
     public RawImage fondo;
     public float velocidadfondo;
@@ -43,7 +43,7 @@ public class MovimientoCampo : MonoBehaviour
 
     [SerializeField] Rigidbody2D rb2d;
     public SpriteRenderer spritepl;
-    public BoxCollider2D Collider;
+    public CapsuleCollider2D Collider;
     public Vector2 StandingHeight;
     public Vector2 CrouchingHeight;
 
@@ -167,7 +167,7 @@ public class MovimientoCampo : MonoBehaviour
 
     void MuerteTrue()
     {
-        estado = GameState.Daño;
+        estado = GameState.Hurt;
     }
 
     void MuerteFalse()

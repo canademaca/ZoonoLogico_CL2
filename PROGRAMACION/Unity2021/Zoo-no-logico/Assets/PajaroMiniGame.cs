@@ -14,7 +14,7 @@ public class PajaroMiniGame : MonoBehaviour
     public Transform Bpoint;
     public GameObject Perdiste;
     public GameObject Animal;
-    public BoxCollider2D Collider;
+    public CapsuleCollider2D Collider;
 
     [SerializeField] public MovimientoCampo player3;
 
