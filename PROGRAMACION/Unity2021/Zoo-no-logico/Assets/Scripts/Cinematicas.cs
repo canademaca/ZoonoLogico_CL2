@@ -21,41 +21,40 @@ public class Cinematicas : MonoBehaviour
    }
 
    void ActivarCinematica()
-   {
-       if (estadoJuego == "Ganar")
-       {
-           ganarCinematica.SetActive(true);
-       }
-       else if (estadoJuego == "Perder")
-       {
-           perderCinematica.SetActive(true);
-       }
-       else if (indiceCinematica >= 0 && indiceCinematica < cinematicas.Length)
-       {
-           cinematicas[indiceCinematica].SetActive(true);
-       }
-       else
-       {
-           Debug.Log("No hay más cinemáticas para mostrar.");
-       }
-   }
-
-   public void MostrarSiguienteCinematica()
-   {
-       if (estadoJuego != "Ganar" && estadoJuego != "Perder")
-       {
-           if (indiceCinematica < cinematicas.Length)
-           {
-               cinematicas[indiceCinematica].SetActive(false);
-           }
-
-           indiceCinematica++;
-           PlayerPrefs.SetInt("IndiceCinematica", indiceCinematica);
-
-           ActivarCinematica();
-       }
-   }
-
-   void Awake()
-    {PlayerPrefs.SetInt("EventoCartas", 1);}
+{
+    if (estadoJuego == "Ganar")
+    {
+        ganarCinematica.SetActive(true);
+    }
+    else if (estadoJuego == "Perder")
+    {
+        perderCinematica.SetActive(true);
+    }
+    else if (indiceCinematica >= 0 && indiceCinematica < cinematicas.Length)
+    {
+        cinematicas[indiceCinematica].SetActive(true);
+    }
+    else
+    {
+        Debug.Log("No hay más cinemáticas para mostrar.");
+    }
 }
+
+public void MostrarSiguienteCinematica()
+{
+    if (estadoJuego != "Ganar" && estadoJuego != "Perder")
+    {
+        if (indiceCinematica < cinematicas.Length)
+        {
+            cinematicas[indiceCinematica].SetActive(false);
+        }
+
+        indiceCinematica++;
+        PlayerPrefs.SetInt("IndiceCinematica", indiceCinematica);
+
+        // Guarda el índice actualizado para sincronizar con CambioDeDia
+        PlayerPrefs.SetInt("CinematicaNumero", indiceCinematica);
+
+        ActivarCinematica();
+    }
+ } }

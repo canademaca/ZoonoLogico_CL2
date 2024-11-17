@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -180,15 +180,23 @@ public class CambioDeDia : MonoBehaviour
         }
 
         // Verifica si pasaron dos días desde la última cinemática
-        if (diasDesdeUltimaCinematica >= 2)
+        if (diasDesdeUltimaCinematica >= 1)
         {
-            CinematicaNumero = PlayerPrefs.GetInt("CinematicaNumero");
-            CinematicaNumero += 1;
-            PlayerPrefs.SetInt("CinematicaNumero", CinematicaNumero);
-            PlayerPrefs.SetString("Cinematica", "C0" + CinematicaNumero);
-            SceneManager.LoadScene(75);
             diasDesdeUltimaCinematica = 0; // Resetea el contador
+        AvanzarCinematica(); // Llama a una función específica para manejar la cinemática
         }
+    }
+
+    void AvanzarCinematica()
+{
+    CinematicaNumero = PlayerPrefs.GetInt("CinematicaNumero");
+    CinematicaNumero += 1;
+    PlayerPrefs.SetInt("CinematicaNumero", CinematicaNumero);
+    PlayerPrefs.SetString("Cinematica", "C0" + CinematicaNumero);
+
+    // Actualiza el índice de la cinemática para la siguiente escena
+    PlayerPrefs.SetInt("IndiceCinematica", CinematicaNumero - 1); 
+    SceneManager.LoadScene(75); // Carga la escena de las cinemáticas
     }
 
     public void CerrarPantallaAnimalFallecido()
