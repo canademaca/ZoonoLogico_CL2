@@ -1180,6 +1180,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4846926828361435645, guid: 6450a091cdd76c5428590af4d1a9ff1a,
         type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846926828361435645, guid: 6450a091cdd76c5428590af4d1a9ff1a,
+        type: 3}
       propertyPath: m_TagString
       value: Plataformas
       objectReference: {fileID: 0}
@@ -1591,6 +1596,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: House03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3951781306951793247, guid: 03df524837973d14087fbd748752f85a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3951781306951793247, guid: 03df524837973d14087fbd748752f85a,
         type: 3}
@@ -2262,6 +2272,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: House02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846926828361435645, guid: 6450a091cdd76c5428590af4d1a9ff1a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4846926828361435645, guid: 6450a091cdd76c5428590af4d1a9ff1a,
         type: 3}
@@ -4672,6 +4687,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3951781306951793247, guid: 03df524837973d14087fbd748752f85a,
         type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3951781306951793247, guid: 03df524837973d14087fbd748752f85a,
+        type: 3}
       propertyPath: m_TagString
       value: Plataformas
       objectReference: {fileID: 0}
@@ -5634,6 +5654,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: House01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858243000417100168, guid: 095c86acafbecff4994c88c777aff2c3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7858243000417100171, guid: 095c86acafbecff4994c88c777aff2c3,
         type: 3}
@@ -7089,6 +7114,10 @@ MonoBehaviour:
   Animal: {fileID: 1075421737}
   Ganaste: {fileID: 1289975035}
   Perdiste: {fileID: 1266901384}
+  DistanciaRaycast: 0
+  platformLayer:
+    serializedVersion: 2
+    m_Bits: 32
   fondo: {fileID: 110010746}
   velocidadfondo: 0.05
   nubes: {fileID: 1199312376}

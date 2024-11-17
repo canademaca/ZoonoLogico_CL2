@@ -3255,7 +3255,7 @@ GameObject:
   - component: {fileID: 872090670}
   - component: {fileID: 872090669}
   - component: {fileID: 872090668}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Sewer-1 (2)
   m_TagString: Plataformas
   m_Icon: {fileID: 0}
@@ -4415,7 +4415,7 @@ GameObject:
   - component: {fileID: 1267770987}
   - component: {fileID: 1267770990}
   - component: {fileID: 1267770989}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Sewer-1
   m_TagString: Plataformas
   m_Icon: {fileID: 0}
@@ -6799,7 +6799,7 @@ GameObject:
   - component: {fileID: 1777024327}
   - component: {fileID: 1777024326}
   - component: {fileID: 1777024325}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Sewer-1 (1)
   m_TagString: Plataformas
   m_Icon: {fileID: 0}
@@ -7705,6 +7705,10 @@ MonoBehaviour:
   Animal: {fileID: 1075421737}
   Ganaste: {fileID: 1289975035}
   Perdiste: {fileID: 1266901384}
+  DistanciaRaycast: 0
+  platformLayer:
+    serializedVersion: 2
+    m_Bits: 33
   fondo: {fileID: 0}
   velocidadfondo: 0.1
   estado: 0
