@@ -7656,6 +7656,10 @@ MonoBehaviour:
   Animal: {fileID: 1433133789}
   Ganaste: {fileID: 1289975035}
   Perdiste: {fileID: 1266901384}
+  DistanciaRaycast: 0
+  platformLayer:
+    serializedVersion: 2
+    m_Bits: 32
   fondo: {fileID: 0}
   velocidadfondo: 0.05
   nubes: {fileID: 0}
