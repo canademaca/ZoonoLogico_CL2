@@ -238,6 +238,7 @@ public class CambioDeDia : MonoBehaviour
         {
             PlayerPrefs.SetString("Cinematica", "GOOD_END");
             PlayerPrefs.SetString("EstadoJuego", "Ganar");
+            Debug.Log("Estado del juego establecido a 'Ganar'");
             SceneManager.LoadScene(75);
             PlayerPrefs.SetInt("Ganaste", 1);
             PlayerPrefs.SetInt("ActivadorCalificacion", 1);
@@ -248,6 +249,7 @@ public class CambioDeDia : MonoBehaviour
         {
             PlayerPrefs.SetString("Cinematica", "BAD_END");
             PlayerPrefs.SetString("EstadoJuego", "Perder");
+            Debug.Log("Estado del juego establecido a 'Perder'");
             SceneManager.LoadScene(75);
             ANALYTICS.SendMessage("game_over");
         }
@@ -256,6 +258,7 @@ public class CambioDeDia : MonoBehaviour
             Pantalla.SetActive(true);
             PopularidadBarra.SetActive(false);
         }
+       
 
         if (PlayerPrefs.GetInt("Ganaste") == 1)
         {

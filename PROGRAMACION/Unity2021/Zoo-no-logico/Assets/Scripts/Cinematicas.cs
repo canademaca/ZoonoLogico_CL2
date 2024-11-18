@@ -24,10 +24,12 @@ public class Cinematicas : MonoBehaviour
 {
     if (estadoJuego == "Ganar")
     {
+        Debug.Log("Activando cinemática de ganar");
         ganarCinematica.SetActive(true);
     }
     else if (estadoJuego == "Perder")
     {
+        Debug.Log("Activando cinemática de perder");
         perderCinematica.SetActive(true);
     }
     else if (indiceCinematica >= 0 && indiceCinematica < cinematicas.Length)
@@ -38,6 +40,14 @@ public class Cinematicas : MonoBehaviour
     {
         Debug.Log("No hay más cinemáticas para mostrar.");
     }
+    if (estadoJuego == "Ganar" && ganarCinematica != null)
+        {
+         ganarCinematica.SetActive(true);
+        }
+        else if (estadoJuego == "Ganar" && ganarCinematica == null)
+        {
+         Debug.LogError("El objeto ganarCinematica no está asignado o es nulo.");
+        }
 }
 
 public void MostrarSiguienteCinematica()
