@@ -28,7 +28,7 @@ public class MovimientoCiudad : MonoBehaviour
 
 
 
-    public enum GameState { Vivo, Muerto, Revivir, Daño }
+    public enum GameState { Vivo, Muerto, Revivir, Hurt }
 
     public RawImage fondo;
     public float velocidadfondo;
@@ -45,7 +45,7 @@ public class MovimientoCiudad : MonoBehaviour
 
     [SerializeField] Rigidbody2D rb2d;
     SpriteRenderer spritepl;
-    public BoxCollider2D Collider;
+    public CapsuleCollider2D Collider;
     public Vector2 StandingHeight;
     public Vector2 CrouchingHeight;
 
@@ -74,19 +74,6 @@ public class MovimientoCiudad : MonoBehaviour
             horizontal = Input.GetAxisRaw("Horizontal");
             vertical = Input.GetAxisRaw("Vertical");
 
-            if (horizontal != 0)
-            {
-
-                /*float velocidadFinal = velocidadfondo * Time.deltaTime * horizontal;
-                fondo.uvRect = new Rect(fondo.uvRect.x + velocidadFinal, 0f, 1f, 1f);
-
-                float velFinal = velnubes * Time.deltaTime * horizontal;
-                nubes.uvRect = new Rect(nubes.uvRect.x + velFinal, 0f, 1f, 1f);
-
-                float veloFinal = velciudad * Time.deltaTime * horizontal;
-                ciudad.uvRect = new Rect(ciudad.uvRect.x + veloFinal, 0f, 1f, 1f);*/
-
-            }
 
             if(horizontal != 0 && vertical == 0)
             {
@@ -182,7 +169,7 @@ public class MovimientoCiudad : MonoBehaviour
 
     void MuerteTrue()
     {
-        estado = GameState.Daño;
+        estado = GameState.Hurt;
     }
 
     void MuerteFalse()

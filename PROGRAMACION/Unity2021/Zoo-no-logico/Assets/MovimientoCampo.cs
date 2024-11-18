@@ -25,11 +25,13 @@ public class MovimientoCampo : MonoBehaviour
     public GameObject Animal;
     public GameObject Ganaste;
     public GameObject Perdiste;
+    public float DistanciaRaycast;
+    public LayerMask platformLayer;
     
 
 
 
-    public enum GameState { Vivo, Muerto, Revivir, Daño }
+    public enum GameState { Vivo, Muerto, Revivir, Hurt }
 
     public RawImage fondo;
     public float velocidadfondo;
@@ -43,7 +45,7 @@ public class MovimientoCampo : MonoBehaviour
 
     [SerializeField] Rigidbody2D rb2d;
     public SpriteRenderer spritepl;
-    public BoxCollider2D Collider;
+    public CapsuleCollider2D Collider;
     public Vector2 StandingHeight;
     public Vector2 CrouchingHeight;
 
@@ -167,7 +169,7 @@ public class MovimientoCampo : MonoBehaviour
 
     void MuerteTrue()
     {
-        estado = GameState.Daño;
+        estado = GameState.Hurt;
     }
 
     void MuerteFalse()
@@ -191,13 +193,17 @@ public class MovimientoCampo : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Plataformas")
+        /*if (collision.gameObject.tag == "Plataformas")
         {
             PuedeSaltar = true;
             animpl.SetBool("Muerte", false);
+        }*/
+
+        PuedeSaltar = Physics2D.Raycast(transform.position, Vector2.down, DistanciaRaycast, platformLayer);
+        if(PuedeSaltar)
+        {
+            animpl.SetBool("Muerte", false);
         }
-
-
 
 
         if (collision.gameObject.tag == "Caida")
@@ -209,13 +215,13 @@ public class MovimientoCampo : MonoBehaviour
 
     }
 
-    void OnCollisionExit2D(Collision2D collision)
+    /*void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Plataformas" || estado == GameState.Vivo)
         {
             PuedeSaltar = false;
         }
-    }
+    }*/
 
 
     void OnTriggerEnter2D(Collider2D collision)

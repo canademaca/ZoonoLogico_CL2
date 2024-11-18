@@ -3255,7 +3255,7 @@ GameObject:
   - component: {fileID: 872090670}
   - component: {fileID: 872090669}
   - component: {fileID: 872090668}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Sewer-1 (2)
   m_TagString: Plataformas
   m_Icon: {fileID: 0}
@@ -4415,7 +4415,7 @@ GameObject:
   - component: {fileID: 1267770987}
   - component: {fileID: 1267770990}
   - component: {fileID: 1267770989}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Sewer-1
   m_TagString: Plataformas
   m_Icon: {fileID: 0}
@@ -6799,7 +6799,7 @@ GameObject:
   - component: {fileID: 1777024327}
   - component: {fileID: 1777024326}
   - component: {fileID: 1777024325}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Sewer-1 (1)
   m_TagString: Plataformas
   m_Icon: {fileID: 0}
@@ -7567,9 +7567,9 @@ GameObject:
   - component: {fileID: 1982035556}
   - component: {fileID: 1982035559}
   - component: {fileID: 1982035558}
-  - component: {fileID: 1982035557}
   - component: {fileID: 1982035562}
   - component: {fileID: 1982035561}
+  - component: {fileID: 1982035563}
   m_Layer: 5
   m_Name: Personaje
   m_TagString: Player
@@ -7592,32 +7592,6 @@ Transform:
   m_Father: {fileID: 248061763}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1982035557
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1982035555}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.5008968, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.86, y: 2.51}
-    newSize: {x: 2.86, y: 2.51}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.858206, y: 2.51}
-  m_EdgeRadius: 0
 --- !u!50 &1982035558
 Rigidbody2D:
   serializedVersion: 4
@@ -7731,14 +7705,44 @@ MonoBehaviour:
   Animal: {fileID: 1075421737}
   Ganaste: {fileID: 1289975035}
   Perdiste: {fileID: 1266901384}
+  DistanciaRaycast: 0
+  platformLayer:
+    serializedVersion: 2
+    m_Bits: 33
   fondo: {fileID: 0}
   velocidadfondo: 0.1
   estado: 0
   animpl: {fileID: 1982035561}
   rb2d: {fileID: 1982035558}
-  Collider: {fileID: 1982035557}
+  Collider: {fileID: 1982035563}
   StandingHeight: {x: 1.858206, y: 2.51}
   CrouchingHeight: {x: 1.858206, y: 1.5}
+--- !u!61 &1982035563
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982035555}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.48144257, y: -0.034363985}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.86, y: 2.51}
+    newSize: {x: 2.86, y: 2.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6236022, y: 2.4412723}
+  m_EdgeRadius: 0
 --- !u!1 &2010491350
 GameObject:
   m_ObjectHideFlags: 0
@@ -8455,9 +8459,9 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 315372966504731044}
   m_PrefabAsset: {fileID: 0}
---- !u!61 &2145122142 stripped
-BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 315372966081402407, guid: 35cb1949af0e6a84f8409cc10e902993,
+--- !u!70 &2145122140 stripped
+CapsuleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 8312893086098571275, guid: 35cb1949af0e6a84f8409cc10e902993,
     type: 3}
   m_PrefabInstance: {fileID: 315372966504731044}
   m_PrefabAsset: {fileID: 0}
@@ -8482,7 +8486,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Collider
       value: 
-      objectReference: {fileID: 2145122142}
+      objectReference: {fileID: 2145122140}
     - target: {fileID: 315372966081402400, guid: 35cb1949af0e6a84f8409cc10e902993,
         type: 3}
       propertyPath: Perdiste
@@ -8678,6 +8682,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8312893086098571275, guid: 35cb1949af0e6a84f8409cc10e902993,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 38.879585
+      objectReference: {fileID: 0}
+    - target: {fileID: 8312893086098571275, guid: 35cb1949af0e6a84f8409cc10e902993,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 17.019054
+      objectReference: {fileID: 0}
+    - target: {fileID: 8312893086098571275, guid: 35cb1949af0e6a84f8409cc10e902993,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 3.8241842
+      objectReference: {fileID: 0}
+    - target: {fileID: 8312893086098571275, guid: 35cb1949af0e6a84f8409cc10e902993,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.6935252
+      objectReference: {fileID: 0}
+    - target: {fileID: 8312893086098571275, guid: 35cb1949af0e6a84f8409cc10e902993,
+        type: 3}
+      propertyPath: m_Direction
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35cb1949af0e6a84f8409cc10e902993, type: 3}
