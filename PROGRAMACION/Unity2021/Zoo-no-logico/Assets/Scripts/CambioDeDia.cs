@@ -115,7 +115,7 @@ public class CambioDeDia : MonoBehaviour
     {
         print(PlayerPrefs.GetInt("Minigame"));
 
-        if (Monedas < 1000 && PlayerPrefs.GetInt("Minigame") == 0)
+        if (Monedas < 500 && PlayerPrefs.GetInt("Minigame") == 0)
         {
             SceneManager.LoadScene(SceneID);
             PlayerPrefs.SetInt("Minigame", 1);
@@ -183,20 +183,20 @@ public class CambioDeDia : MonoBehaviour
         if (diasDesdeUltimaCinematica >= 1)
         {
             diasDesdeUltimaCinematica = 0; // Resetea el contador
-        AvanzarCinematica(); // Llama a una función específica para manejar la cinemática
+            AvanzarCinematica(); // Llama a una función específica para manejar la cinemática
         }
     }
 
     void AvanzarCinematica()
-{
-    CinematicaNumero = PlayerPrefs.GetInt("CinematicaNumero");
-    CinematicaNumero += 1;
-    PlayerPrefs.SetInt("CinematicaNumero", CinematicaNumero);
-    PlayerPrefs.SetString("Cinematica", "C0" + CinematicaNumero);
+    {
+        CinematicaNumero = PlayerPrefs.GetInt("CinematicaNumero");
+        CinematicaNumero += 1;
+        PlayerPrefs.SetInt("CinematicaNumero", CinematicaNumero);
+        PlayerPrefs.SetString("Cinematica", "C0" + CinematicaNumero);
 
-    // Actualiza el índice de la cinemática para la siguiente escena
-    PlayerPrefs.SetInt("IndiceCinematica", CinematicaNumero - 1); 
-    SceneManager.LoadScene(75); // Carga la escena de las cinemáticas
+        // Actualiza el índice de la cinemática para la siguiente escena
+        PlayerPrefs.SetInt("IndiceCinematica", CinematicaNumero - 1); 
+        SceneManager.LoadScene(75); // Carga la escena de las cinemáticas
     }
 
     public void CerrarPantallaAnimalFallecido()

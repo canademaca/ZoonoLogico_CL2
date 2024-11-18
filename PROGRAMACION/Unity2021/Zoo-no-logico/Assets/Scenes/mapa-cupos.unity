@@ -2288,7 +2288,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &90242708
@@ -3371,7 +3371,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &172790575
@@ -3837,7 +3837,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &207123595
@@ -7770,7 +7770,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &403950767
@@ -11394,7 +11394,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &614156030
@@ -14895,7 +14895,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &775412472
@@ -15051,7 +15051,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &802736966
@@ -19204,7 +19204,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &1023865723
@@ -19869,7 +19869,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!114 &1049382368
@@ -20081,7 +20081,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &1062631276
@@ -21987,7 +21987,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &1152164522
@@ -22379,7 +22379,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &1180043259
@@ -26457,7 +26457,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &1395605165
@@ -29981,7 +29981,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &1563804178
@@ -30947,7 +30947,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &1595238059
@@ -31259,7 +31259,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &1620549023
@@ -31856,7 +31856,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &1647284650
@@ -32953,7 +32953,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &1697330498
@@ -34376,7 +34376,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &1751164608
@@ -41956,7 +41956,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 0}
   testMonedas2: {fileID: 0}
-  confirmacion: {fileID: 0}
+  confirmacion: {fileID: 1512300402}
   myCruzaList:
     cruza: []
 --- !u!1 &2096397039
