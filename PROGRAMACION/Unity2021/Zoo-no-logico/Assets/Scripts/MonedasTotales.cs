@@ -98,7 +98,7 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt(PlayerPrefs.GetString("animal1Tienda") + "sTotales", PlayerPrefs.GetInt(PlayerPrefs.GetString("animal1Tienda") + "sTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidad" + PlayerPrefs.GetString("animal1Tienda"));
-            ANALYTICS.SendMessage("comprar");
+            
             print("compre 1" + PlayerPrefs.GetString("animal1Tienda"));
         }
     }
@@ -116,7 +116,7 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt(PlayerPrefs.GetString("animal2Tienda") + "sTotales", PlayerPrefs.GetInt(PlayerPrefs.GetString("animal2Tienda") + "sTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidad" + PlayerPrefs.GetString("animal2Tienda"));
-            ANALYTICS.SendMessage("comprar");
+            
         }
     }
 
@@ -132,7 +132,7 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt(PlayerPrefs.GetString("animal3Tienda") + "sTotales", PlayerPrefs.GetInt(PlayerPrefs.GetString("animal3Tienda") + "sTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidad" + PlayerPrefs.GetString("animal3Tienda"));
-            ANALYTICS.SendMessage("comprar");
+            
         }
     }
 
@@ -148,7 +148,7 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt(PlayerPrefs.GetString("animal4Tienda") + "sTotales", PlayerPrefs.GetInt(PlayerPrefs.GetString("animal4Tienda") + "sTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidad" + PlayerPrefs.GetString("animal4Tienda"));
-            ANALYTICS.SendMessage("comprar");
+            
         }
     }
 
@@ -164,7 +164,7 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt(PlayerPrefs.GetString("animal5Tienda") + "sTotales", PlayerPrefs.GetInt(PlayerPrefs.GetString("animal5Tienda") + "sTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidad" + PlayerPrefs.GetString("animal5Tienda"));
-            ANALYTICS.SendMessage("comprar");
+            
         }
     }
 
@@ -180,7 +180,7 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt(PlayerPrefs.GetString("animal6Tienda") + "sTotales", PlayerPrefs.GetInt(PlayerPrefs.GetString("animal6Tienda") + "sTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidad" + PlayerPrefs.GetString("animal6Tienda"));
-            ANALYTICS.SendMessage("comprar");
+            
         }
     }
 
@@ -197,7 +197,7 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt(PlayerPrefs.GetString("animal7Tienda") + "sTotales", PlayerPrefs.GetInt(PlayerPrefs.GetString("animal7Tienda") + "sTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidad" + PlayerPrefs.GetString("animal7Tienda"));
-            ANALYTICS.SendMessage("comprar");
+            
         }
     }
 
@@ -213,7 +213,7 @@ public class MonedasTotales : MonoBehaviour {
             PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
             PlayerPrefs.SetInt("ComidaComprada", PlayerPrefs.GetInt("ComidaComprada") + 1);
             
-            ANALYTICS.SendMessage("comprar_comida", 1);
+            
         }
     }
 
@@ -229,7 +229,7 @@ public class MonedasTotales : MonoBehaviour {
             PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
             PlayerPrefs.SetInt("ComidaComprada", PlayerPrefs.GetInt("ComidaComprada") + 5);
 
-            ANALYTICS.SendMessage("comprar_comida", 5);
+            
         }
     }
 

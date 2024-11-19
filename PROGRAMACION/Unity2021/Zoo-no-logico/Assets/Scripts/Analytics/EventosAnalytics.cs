@@ -10,7 +10,7 @@ public class EventosAnalytics : MonoBehaviour
 
     void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        
     }
 
 

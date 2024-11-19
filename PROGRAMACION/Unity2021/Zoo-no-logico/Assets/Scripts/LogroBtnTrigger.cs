@@ -39,8 +39,5 @@ public class LogroBtnTrigger : MonoBehaviour
         Debug.Log(myLogroList);
     }
 
-    public void TriggerAchievement(string id)
-    {
-        LogrosObject.SendMessage("UnlockAchievement", id);
-    }
+    
 }

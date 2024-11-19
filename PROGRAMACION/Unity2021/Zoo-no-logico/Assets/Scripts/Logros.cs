@@ -118,7 +118,7 @@ public class Logros : MonoBehaviour
 
                             PlayerPrefs.SetInt("Logro" + logro.id, 1);
                             PlayerPrefs.SetInt("Logro" + logro.id + "Unlocked", 1);
-                            ANALYTICS.SendMessage("logro");
+                            
                         }
                 }
                 else

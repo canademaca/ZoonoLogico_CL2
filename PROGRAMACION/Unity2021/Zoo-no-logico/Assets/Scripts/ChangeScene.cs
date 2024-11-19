@@ -43,23 +43,7 @@ public class ChangeScene : MonoBehaviour {
         PlayerPrefs.SetInt("Cantidad" + PlayerPrefs.GetString("Slot3"), PlayerPrefs.GetInt("Cantidad" + PlayerPrefs.GetString("Slot3")) + 1);
     }
 
-    public void SumarContinuarParaAnalytics(string playerPref)
-    {
-        PlayerPrefs.SetInt(playerPref, PlayerPrefs.GetInt(playerPref) + 1);
-    }
-
-    public void ejecutarAccionAnalytics(string accion)
-    {
-        ANALYTICS.SendMessage(accion);
-    }
-
-    public void SoundButton()
-    {
-        sound.clip = Sonidoboton;
-        sound.enabled = false;
-        sound.enabled = true;
-        DontDestroyOnLoad(this);
-    }
+    
 
 
 }

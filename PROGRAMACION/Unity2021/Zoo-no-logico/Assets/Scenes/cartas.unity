@@ -621,6 +621,7 @@ GameObject:
   - component: {fileID: 141522548}
   - component: {fileID: 141522547}
   - component: {fileID: 141522546}
+  - component: {fileID: 141522551}
   m_Layer: 5
   m_Name: Button4
   m_TagString: Untagged
@@ -640,13 +641,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f6af63b27a9794781737d2afbc52c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 461139812}
-  button2: {fileID: 835749598}
-  button3: {fileID: 1611099431}
-  button4: {fileID: 141522545}
-  button5: {fileID: 1740883550}
-  button6: {fileID: 1874954011}
-  reclamado: 0
+  buttonCarpincho: {fileID: 0}
+  buttonMonedas250: {fileID: 141522545}
+  buttonMonedas2000: {fileID: 0}
+  buttonMonedas4000: {fileID: 0}
+  buttonCocodrilo: {fileID: 0}
+  buttonSerpiente: {fileID: 0}
 --- !u!114 &141522547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -693,8 +693,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 141522546}
         m_TargetAssemblyTypeName: RecompensaCartas, Assembly-CSharp
-        m_MethodName: ReclamarMonedas
-        m_Mode: 3
+        m_MethodName: ReclamarMonedas250
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -749,7 +749,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 141522545}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 422.25125}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -760,9 +760,21 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.3308, y: -84.5}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 122.81, y: 34.1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &141522551
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141522545}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &143563180
 GameObject:
   m_ObjectHideFlags: 0
@@ -1742,7 +1754,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &307216632
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2141,7 +2153,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348071449}
   m_LocalRotation: {x: -0, y: 0, z: -0.7056397, w: -0.70857084}
-  m_LocalPosition: {x: -6.02134, y: 205.92952, z: -4048.9978}
+  m_LocalPosition: {x: -7, y: -2, z: -4048.9978}
   m_LocalScale: {x: 26.948334, y: 26.948334, z: 26.94833}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2918,6 +2930,7 @@ GameObject:
   - component: {fileID: 461139815}
   - component: {fileID: 461139814}
   - component: {fileID: 461139813}
+  - component: {fileID: 461139818}
   m_Layer: 5
   m_Name: Button1
   m_TagString: Untagged
@@ -2937,13 +2950,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f6af63b27a9794781737d2afbc52c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 461139812}
-  button2: {fileID: 835749598}
-  button3: {fileID: 1611099431}
-  button4: {fileID: 141522545}
-  button5: {fileID: 1740883550}
-  button6: {fileID: 1874954011}
-  reclamado: 0
+  buttonCarpincho: {fileID: 461139812}
+  buttonMonedas250: {fileID: 0}
+  buttonMonedas2000: {fileID: 0}
+  buttonMonedas4000: {fileID: 0}
+  buttonCocodrilo: {fileID: 0}
+  buttonSerpiente: {fileID: 0}
 --- !u!114 &461139814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3060,6 +3072,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -116.2}
   m_SizeDelta: {x: 154.86, y: 62.14}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &461139818
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461139812}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &465177820
 GameObject:
   m_ObjectHideFlags: 0
@@ -3843,7 +3867,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &563182958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4079,7 +4103,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &621370972
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5335,6 +5359,7 @@ GameObject:
   - component: {fileID: 835749601}
   - component: {fileID: 835749600}
   - component: {fileID: 835749603}
+  - component: {fileID: 835749604}
   m_Layer: 5
   m_Name: Button2
   m_TagString: Untagged
@@ -5350,7 +5375,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 835749598}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 422.25125}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5361,7 +5386,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.3308, y: -205.70999}
+  m_AnchoredPosition: {x: 0, y: -151.3}
   m_SizeDelta: {x: 122.81, y: 34.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &835749600
@@ -5410,8 +5435,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 835749603}
         m_TargetAssemblyTypeName: RecompensaCartas, Assembly-CSharp
-        m_MethodName: ReclamarMonedas
-        m_Mode: 3
+        m_MethodName: ReclamarMonedas2000
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5470,13 +5495,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f6af63b27a9794781737d2afbc52c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 461139812}
-  button2: {fileID: 835749598}
-  button3: {fileID: 1611099431}
-  button4: {fileID: 141522545}
-  button5: {fileID: 1740883550}
-  button6: {fileID: 1874954011}
-  reclamado: 0
+  buttonCarpincho: {fileID: 0}
+  buttonMonedas250: {fileID: 0}
+  buttonMonedas2000: {fileID: 835749598}
+  buttonMonedas4000: {fileID: 0}
+  buttonCocodrilo: {fileID: 0}
+  buttonSerpiente: {fileID: 0}
+--- !u!225 &835749604
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835749598}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &850733590
 GameObject:
   m_ObjectHideFlags: 0
@@ -6320,7 +6356,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1009776955
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8833,7 +8869,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1390194723
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9763,6 +9799,7 @@ GameObject:
   - component: {fileID: 1611099434}
   - component: {fileID: 1611099433}
   - component: {fileID: 1611099436}
+  - component: {fileID: 1611099437}
   m_Layer: 5
   m_Name: Button3
   m_TagString: Untagged
@@ -9778,7 +9815,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611099431}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 422.25125}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9843,7 +9880,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9898,13 +9935,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f6af63b27a9794781737d2afbc52c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 461139812}
-  button2: {fileID: 835749598}
-  button3: {fileID: 1611099431}
-  button4: {fileID: 141522545}
-  button5: {fileID: 1740883550}
-  button6: {fileID: 1874954011}
-  reclamado: 0
+  buttonCarpincho: {fileID: 0}
+  buttonMonedas250: {fileID: 0}
+  buttonMonedas2000: {fileID: 0}
+  buttonMonedas4000: {fileID: 0}
+  buttonCocodrilo: {fileID: 1611099431}
+  buttonSerpiente: {fileID: 0}
+--- !u!225 &1611099437
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611099431}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1611944003
 GameObject:
   m_ObjectHideFlags: 0
@@ -10553,6 +10601,7 @@ GameObject:
   - component: {fileID: 1740883553}
   - component: {fileID: 1740883552}
   - component: {fileID: 1740883551}
+  - component: {fileID: 1740883556}
   m_Layer: 5
   m_Name: Button5
   m_TagString: Untagged
@@ -10572,13 +10621,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f6af63b27a9794781737d2afbc52c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 461139812}
-  button2: {fileID: 835749598}
-  button3: {fileID: 1611099431}
-  button4: {fileID: 141522545}
-  button5: {fileID: 1740883550}
-  button6: {fileID: 1874954011}
-  reclamado: 0
+  buttonCarpincho: {fileID: 0}
+  buttonMonedas250: {fileID: 0}
+  buttonMonedas2000: {fileID: 0}
+  buttonMonedas4000: {fileID: 1740883550}
+  buttonCocodrilo: {fileID: 0}
+  buttonSerpiente: {fileID: 0}
 --- !u!114 &1740883552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10625,12 +10673,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1740883551}
         m_TargetAssemblyTypeName: RecompensaCartas, Assembly-CSharp
-        m_MethodName: ReclamarMonedas
-        m_Mode: 3
+        m_MethodName: ReclamarMonedas4000
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2000
+          m_IntArgument: 4000
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -10681,7 +10729,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1740883550}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 422.25125}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10692,9 +10740,21 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.3308, y: -157.6}
+  m_AnchoredPosition: {x: 0, y: -157.6}
   m_SizeDelta: {x: 122.81, y: 34.1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &1740883556
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740883550}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1754082173
 GameObject:
   m_ObjectHideFlags: 0
@@ -11248,6 +11308,7 @@ GameObject:
   - component: {fileID: 1874954015}
   - component: {fileID: 1874954014}
   - component: {fileID: 1874954013}
+  - component: {fileID: 1874954017}
   m_Layer: 5
   m_Name: Button6
   m_TagString: Untagged
@@ -11263,7 +11324,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1874954011}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 422.25125}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11274,7 +11335,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -97.2}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 154.86, y: 62.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1874954013
@@ -11289,13 +11350,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f6af63b27a9794781737d2afbc52c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 461139812}
-  button2: {fileID: 835749598}
-  button3: {fileID: 1611099431}
-  button4: {fileID: 141522545}
-  button5: {fileID: 1740883550}
-  button6: {fileID: 1874954011}
-  reclamado: 0
+  buttonCarpincho: {fileID: 0}
+  buttonMonedas250: {fileID: 0}
+  buttonMonedas2000: {fileID: 0}
+  buttonMonedas4000: {fileID: 0}
+  buttonCocodrilo: {fileID: 0}
+  buttonSerpiente: {fileID: 1874954011}
 --- !u!114 &1874954014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11347,7 +11407,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -11390,6 +11450,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1874954011}
   m_CullTransparentMesh: 1
+--- !u!225 &1874954017
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874954011}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1875110991
 GameObject:
   m_ObjectHideFlags: 0
@@ -13246,7 +13318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2107383767
 MonoBehaviour:
   m_ObjectHideFlags: 0

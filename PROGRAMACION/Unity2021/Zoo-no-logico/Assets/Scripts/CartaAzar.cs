@@ -114,10 +114,9 @@ public class CartaAzar : MonoBehaviour
             listaRandom.Contains(7) &&
             listaRandom.Contains(8) &&
             listaRandom.Contains(9) &&
-            listaRandom.Contains(10))
-            //&&
-            //listaRandom.Contains(11) &&
-            //listaRandom.Contains(12))
+            listaRandom.Contains(10) &&
+            listaRandom.Contains(11) &&
+            listaRandom.Contains(12))
         {
             PlayerPrefs.SetInt("DesactivarNoti", 1);
         }
