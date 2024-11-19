@@ -126,6 +126,7 @@ public class CambioDeDia : MonoBehaviour
     {   
         Debug.Log("Nuevo dia");
         Minijuego(17);
+        
 
         if (!PantallaPostEvento)
         {
@@ -135,10 +136,11 @@ public class CambioDeDia : MonoBehaviour
             PlayerPrefs.SetInt("Dias", numTurno);
             PopularidadBarra.SetActive(true);
             PlayerPrefs.SetInt("EventoCartas", 1);
-            diasDesdeUltimaCinematica++;
-            myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
+             myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
             Debug.Log(myCruzaList + " Cruza list");
             print("Test: " + myCruzaList.cruza[0].popularidad);
+            diasDesdeUltimaCinematica++;
+            
             for (int i = 0; i < 20; i++)
             {
                 int feedCount = PlayerPrefs.GetInt("FeedJaula" + i);
