@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 6
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 16
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -1062,7 +1062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 1
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -3060,7 +3060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 1
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -3506,7 +3506,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 188610119}
-  sliderFill: {fileID: 1090634417}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -4766,7 +4766,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 267787968}
-  sliderFill: {fileID: 667141451}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -5156,7 +5156,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 284877871}
-  sliderFill: {fileID: 740937005}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -5712,7 +5712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 2
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -6007,7 +6007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 19
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -6302,7 +6302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 3
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -7425,7 +7425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 9
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -7985,7 +7985,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 409642910}
-  sliderFill: {fileID: 1954354069}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -9720,7 +9720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 5
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -9969,7 +9969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 13
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -10353,7 +10353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 4
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -11125,7 +11125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 15
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -11799,7 +11799,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 627407477}
-  sliderFill: {fileID: 587863981}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -11992,7 +11992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 14
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -12380,7 +12380,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 7
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -12780,7 +12780,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 681589251}
-  sliderFill: {fileID: 1794213901}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -12893,7 +12893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 13
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -13201,7 +13201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 18
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -14301,7 +14301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 16
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -14626,7 +14626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 10
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -15326,7 +15326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 8
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -15654,7 +15654,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 834106965}
-  sliderFill: {fileID: 172790577}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -16577,7 +16577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 4
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -16728,7 +16728,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000047088, y: 43.84}
+  m_AnchoredPosition: {x: 0, y: 43.84}
   m_SizeDelta: {x: 24.775, y: 14.084}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &880763036
@@ -17250,7 +17250,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 913584424}
-  sliderFill: {fileID: 848525630}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -17741,7 +17741,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 947406662}
-  sliderFill: {fileID: 1969527776}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -18935,7 +18935,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 5
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -20970,7 +20970,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 1112646130}
-  sliderFill: {fileID: 1227157038}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -21163,7 +21163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 17
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -21642,7 +21642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 15
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -22561,7 +22561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 12
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -23249,7 +23249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 10
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -23422,7 +23422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 9
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -24238,7 +24238,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 1272458768}
-  sliderFill: {fileID: 1891285897}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -24351,7 +24351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 18
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -26844,7 +26844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 2
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -27363,7 +27363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 14
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -28024,7 +28024,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 1470960909}
-  sliderFill: {fileID: 2010108345}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -28136,7 +28136,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 1473524336}
-  sliderFill: {fileID: 1891285897}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -28859,7 +28859,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 1507135654}
-  sliderFill: {fileID: 847153719}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -30158,7 +30158,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 1566263429}
-  sliderFill: {fileID: 172790577}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -33088,7 +33088,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 1698957146}
-  sliderFill: {fileID: 403950769}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -33540,7 +33540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 19
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -33910,7 +33910,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 1733788081}
-  sliderFill: {fileID: 870893905}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -35187,7 +35187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 6
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -35592,7 +35592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 11
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -35917,7 +35917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 12
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -37258,7 +37258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 3
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -38188,7 +38188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 7
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -38596,7 +38596,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 1968026124}
-  sliderFill: {fileID: 1137220319}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -38920,7 +38920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 11
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -39509,7 +39509,7 @@ MonoBehaviour:
   selectedJaula: 0
   saciedad: 0
   slider: {fileID: 2002937694}
-  sliderFill: {fileID: 1294857454}
+  sliderFill: {fileID: 0}
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 0}
@@ -40490,7 +40490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 8
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
@@ -42552,7 +42552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cruzas: []
-  selectedJaula: 0
+  selectedJaula: 17
   saciedad: 0
   slider: {fileID: 0}
   sliderFill: {fileID: 0}
