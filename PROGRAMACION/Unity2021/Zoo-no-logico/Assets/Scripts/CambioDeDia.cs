@@ -136,7 +136,7 @@ public class CambioDeDia : MonoBehaviour
             PlayerPrefs.SetInt("Dias", numTurno);
             PopularidadBarra.SetActive(true);
             PlayerPrefs.SetInt("EventoCartas", 1);
-             myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
+            myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
             Debug.Log(myCruzaList + " Cruza list");
             print("Test: " + myCruzaList.cruza[0].popularidad);
             diasDesdeUltimaCinematica++;
@@ -147,7 +147,7 @@ public class CambioDeDia : MonoBehaviour
                 if (PlayerPrefs.GetInt("SaciedadJaula" + i) > 0 && feedCount > 0)
                 {
                     PlayerPrefs.SetInt("alimentarAnimalTotal", PlayerPrefs.GetInt("alimentarAnimalTotal") + 1);
-                   
+                    ANALYTICS.SendMessage("alimentar", i);
                     for (int e = 0; e < feedCount; e++)
                     {
                         saciedadCtrl.AddSaciedadByJaula(i, feedCount);
@@ -159,7 +159,7 @@ public class CambioDeDia : MonoBehaviour
                 if ((PlayerPrefs.GetInt("JaulaActiva" + i) == 1) && PlayerPrefs.GetInt("SaciedadJaula" + i) <= 0)
                 {
                     PlayerPrefs.SetInt("animalMuertoTotal", PlayerPrefs.GetInt("animalMuertoTotal") + 1);
-                    
+                    ANALYTICS.SendMessage("animal_fallecido", i);
 
                     print(int.Parse(PlayerPrefs.GetString("Jaula" + i)));
                     PlayerPrefs.SetInt("popularidad", PlayerPrefs.GetInt("popularidad") - myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Jaula" + i))].popularidad);
@@ -190,26 +190,26 @@ public class CambioDeDia : MonoBehaviour
     }
 
    void AvanzarCinematica()
-{
-    CinematicaNumero = PlayerPrefs.GetInt("CinematicaNumero");
-    CinematicaNumero += 1;
-    PlayerPrefs.SetInt("CinematicaNumero", CinematicaNumero);
-    PlayerPrefs.SetString("Cinematica", "C01" + CinematicaNumero);
-
-    // Actualiza el índice de la cinemática para la siguiente escena
-    PlayerPrefs.SetInt("IndiceCinematica", CinematicaNumero - 1);
-
-    // Verifica si el número de la cinemática supera el límite de cinemáticas disponibles
-    int totalCinematicasDisponibles = 6; // Cambia este número al total de cinemáticas disponibles en tu juego
-    if (CinematicaNumero <= totalCinematicasDisponibles)
     {
-        SceneManager.LoadScene(75); // Carga la escena de las cinemáticas
-    }
-    else
-    {
-        // Si ya se han mostrado todas las cinemáticas, vuelve al menú principal
-        SceneManager.LoadScene(2); // Carga la escena del menú principal
-    }
+        CinematicaNumero = PlayerPrefs.GetInt("CinematicaNumero");
+        CinematicaNumero += 1;
+        PlayerPrefs.SetInt("CinematicaNumero", CinematicaNumero);
+        PlayerPrefs.SetString("Cinematica", "C01" + CinematicaNumero);
+
+        // Actualiza el índice de la cinemática para la siguiente escena
+        PlayerPrefs.SetInt("IndiceCinematica", CinematicaNumero - 1);
+
+        // Verifica si el número de la cinemática supera el límite de cinemáticas disponibles
+        int totalCinematicasDisponibles = 6; // Cambia este número al total de cinemáticas disponibles en tu juego
+        if (CinematicaNumero <= totalCinematicasDisponibles)
+        {
+            SceneManager.LoadScene(75); // Carga la escena de las cinemáticas
+        }
+        else
+        {
+            // Si ya se han mostrado todas las cinemáticas, vuelve al menú principal
+            SceneManager.LoadScene(2); // Carga la escena del menú principal
+        }
     }
 
     
@@ -281,6 +281,7 @@ public class CambioDeDia : MonoBehaviour
             PlayerPrefs.SetInt("CantidadMurcielago", 99);
             PlayerPrefs.SetInt("Moneditas", 999999999);
         }
+        ANALYTICS.SendMessage("fin_del_turno");
     }
 
     public void OnPantallaPostEvento()
