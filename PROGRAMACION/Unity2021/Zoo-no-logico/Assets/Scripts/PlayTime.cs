@@ -11,9 +11,9 @@ public class PlayTime : MonoBehaviour {
 	private int totalTimeSeconds;
 
 	void Awake()
-    {
-		DontDestroyOnLoad(this.gameObject);
-    }
+  {
+    DontDestroyOnLoad(this.gameObject);
+  }
 
 	void Start () {
 		
@@ -24,9 +24,10 @@ public class PlayTime : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void FixedUpdate () {
-		time += (Time.deltaTime);
-		totalTimeSeconds = Mathf.RoundToInt(time);
-        PlayerPrefs.SetInt("TiempoJuego", totalTimeSeconds);
+    void FixedUpdate () 
+    {
+      time += (Time.deltaTime);
+      totalTimeSeconds = Mathf.RoundToInt(time);
+      PlayerPrefs.SetInt("TiempoJuego", totalTimeSeconds);
     }
 }

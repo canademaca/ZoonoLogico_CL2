@@ -422,6 +422,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_CanvasGroup_set_blocksRaycasts();
 		Register_UnityEngine_CanvasGroup_set_blocksRaycasts();
 
+		//System.Void UnityEngine.CanvasGroup::set_interactable(System.Boolean)
+		void Register_UnityEngine_CanvasGroup_set_interactable();
+		Register_UnityEngine_CanvasGroup_set_interactable();
+
 	//End Registrations for type : UnityEngine.CanvasGroup
 
 	//Start Registrations for type : UnityEngine.CanvasRenderer
@@ -527,6 +531,18 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_CanvasRenderer_GetMaterial();
 
 	//End Registrations for type : UnityEngine.CanvasRenderer
+
+	//Start Registrations for type : UnityEngine.CapsuleCollider2D
+
+		//System.Void UnityEngine.CapsuleCollider2D::get_size_Injected(UnityEngine.Vector2&)
+		void Register_UnityEngine_CapsuleCollider2D_get_size_Injected();
+		Register_UnityEngine_CapsuleCollider2D_get_size_Injected();
+
+		//System.Void UnityEngine.CapsuleCollider2D::set_size_Injected(UnityEngine.Vector2&)
+		void Register_UnityEngine_CapsuleCollider2D_set_size_Injected();
+		Register_UnityEngine_CapsuleCollider2D_set_size_Injected();
+
+	//End Registrations for type : UnityEngine.CapsuleCollider2D
 
 	//Start Registrations for type : UnityEngine.Component
 

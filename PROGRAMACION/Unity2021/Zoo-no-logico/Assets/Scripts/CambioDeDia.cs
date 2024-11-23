@@ -221,6 +221,7 @@ public class CambioDeDia : MonoBehaviour
         int Random3 = new System.Random().Next(1, 13);
 
         // Mezcla de lista de animales
+        print(listaAnimales[0]);
         for (int i = 0; i < listaAnimales.Length; i++)
         {
             int rnd = Random.Range(0, listaAnimales.Length);
@@ -228,7 +229,7 @@ public class CambioDeDia : MonoBehaviour
             listaAnimales[rnd] = listaAnimales[i];
             listaAnimales[i] = tempGO;
         }
-
+        print ("RANDOM ACA: " + listaAnimales[0]);
         // Asignación de animales a la tienda
         PlayerPrefs.SetString("animal1Tienda", listaAnimales[0]);
         PlayerPrefs.SetString("animal2Tienda", listaAnimales[1]);
@@ -238,6 +239,8 @@ public class CambioDeDia : MonoBehaviour
         PlayerPrefs.SetString("animal6Tienda", listaAnimales[5]);
         PlayerPrefs.SetString("animal7Tienda", listaAnimales[6]);
 
+        print(PlayerPrefs.GetString("animal7Tienda"));
+        
         PlayerPrefs.SetInt("comentarioRandom1", Random1);
         PlayerPrefs.SetInt("comentarioRandom2", Random2);
         PlayerPrefs.SetInt("avatarRandom", Random3);
