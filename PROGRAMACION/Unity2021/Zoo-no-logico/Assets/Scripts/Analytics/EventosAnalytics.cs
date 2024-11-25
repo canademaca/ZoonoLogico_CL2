@@ -10,7 +10,7 @@ public class EventosAnalytics : MonoBehaviour
 
     void Awake()
     {
-        
+        DontDestroyOnLoad(this.gameObject);
     }
 
 
@@ -98,7 +98,7 @@ public class EventosAnalytics : MonoBehaviour
     {
         AnalyticsService.Instance.CustomData("comprar", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("vezCompra")},
-            {"animal", PlayerPrefs.GetString("animalCompra")},
+            {"animal_tienda", PlayerPrefs.GetString("animalCompra")},
             {"cantidad_ave", PlayerPrefs.GetInt("AvesTotales")},
             {"cantidad_serpiente", PlayerPrefs.GetInt("SerpientesTotales")},
             {"cantidad_murcielago", PlayerPrefs.GetInt("MurcielagosTotales")},
@@ -110,7 +110,7 @@ public class EventosAnalytics : MonoBehaviour
         }); 
 
         Debug.Log("vez" +  PlayerPrefs.GetInt("vezCompra"));
-        Debug.Log("animal " + PlayerPrefs.GetString("animalCompra"));
+        Debug.Log("animal_tienda" + PlayerPrefs.GetString("animalCompra"));
         Debug.Log("cantidad_ave" + PlayerPrefs.GetInt("AvesTotales"));
         Debug.Log("cantidad_serpiente" + PlayerPrefs.GetInt("SerpientesTotales"));
         Debug.Log("cantidad_murcielago" + PlayerPrefs.GetInt("MurcielagosTotales"));
@@ -123,9 +123,9 @@ public class EventosAnalytics : MonoBehaviour
     public void cruza()
     {
         AnalyticsService.Instance.CustomData("cruza", new Dictionary<string, object>(){
-            {"animal3", PlayerPrefs.GetString("animalSlot3")},
-            {"animal2", PlayerPrefs.GetString("animalSlot2")},
-            {"animal1", PlayerPrefs.GetString("animalSlot1")},
+            {"animal3_", PlayerPrefs.GetString("animalSlot3")},
+            {"animal2_", PlayerPrefs.GetString("animalSlot2")},
+            {"animal1_", PlayerPrefs.GetString("animalSlot1")},
             {"numero_id", PlayerPrefs.GetInt("indexCurrentCruza")},
             {"vez", PlayerPrefs.GetInt("combinarTotales")},
 

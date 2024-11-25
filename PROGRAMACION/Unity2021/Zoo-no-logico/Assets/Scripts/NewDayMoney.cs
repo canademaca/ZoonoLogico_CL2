@@ -29,6 +29,7 @@ public class NewDayMoney : MonoBehaviour {
     private float popularityMultipliyer;
     private float newMoney;
     private int newMoneyInt;
+    private float cageMoney;
     float Monedas;
     private int impuestoDeuda = 0;
     float impuestoDiario = 0;
@@ -118,13 +119,14 @@ public class NewDayMoney : MonoBehaviour {
             impuestoPorNoHacerCruzasMultiplicador = 0;
         }
         int impuestoPopularidad = impuestoDeuda + Mathf.RoundToInt(impuestoPorNoHacerCruzasMultiplicador * impuestoDiarioMultiplicador);
-
+        print("Impuesto popularidad: " + impuestoPopularidad);
         // impuestoDiario = ((PlayerPrefs.GetInt("JaulasOcupadas") * 300) + 150) * impuestoDiarioMultiplicador * impuestoPorNoHacerCruzasMultiplicador;
 
+        
         impuestoDiario = ((PlayerPrefs.GetInt("JaulasOcupadas") * 400) + 150);
-
+        print("Popularidad previa: " + PlayerPrefs.GetInt("Popularidad"));
         PlayerPrefs.SetInt("Popularidad", PlayerPrefs.GetInt("Popularidad") - impuestoPopularidad);
-
+        print("Popularidad despues: " + PlayerPrefs.GetInt("Popularidad"));
 
 
         newMoney = ((PlayerPrefs.GetInt("cage0Money") / cageDivisor + PlayerPrefs.GetInt("cage1Money") / cageDivisor + PlayerPrefs.GetInt("cage2Money") / cageDivisor + PlayerPrefs.GetInt("cage3Money") / cageDivisor + PlayerPrefs.GetInt("cage4Money")/cageDivisor + PlayerPrefs.GetInt("cage5Money")/cageDivisor + PlayerPrefs.GetInt("cage6Money") / cageDivisor + PlayerPrefs.GetInt("cage7Money") / cageDivisor + PlayerPrefs.GetInt("cage8Money") / cageDivisor + PlayerPrefs.GetInt("cage9Money")/cageDivisor + PlayerPrefs.GetInt("cage10Money")/cageDivisor + PlayerPrefs.GetInt("cage11Money") / cageDivisor + PlayerPrefs.GetInt("cage12Money") / cageDivisor + PlayerPrefs.GetInt("cage13Money") / cageDivisor + PlayerPrefs.GetInt("cage14Money") / cageDivisor + PlayerPrefs.GetInt("cage15Money") / cageDivisor + PlayerPrefs.GetInt("cage16Money") / cageDivisor + PlayerPrefs.GetInt("cage17Money") / cageDivisor + PlayerPrefs.GetInt("cage18Money") / cageDivisor + PlayerPrefs.GetInt("cage19Money") / cageDivisor + PlayerPrefs.GetInt("cage20Money") / cageDivisor) * popularityMultipliyer) - (int)impuestoDiario;

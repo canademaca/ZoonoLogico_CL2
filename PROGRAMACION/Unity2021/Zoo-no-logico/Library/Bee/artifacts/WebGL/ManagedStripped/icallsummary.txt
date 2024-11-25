@@ -89,6 +89,7 @@ UnityEngine.CanvasGroup::get_interactable
 UnityEngine.CanvasGroup::get_alpha
 UnityEngine.CanvasGroup::set_alpha
 UnityEngine.CanvasGroup::set_blocksRaycasts
+UnityEngine.CanvasGroup::set_interactable
 UnityEngine.CanvasRenderer::get_cull
 UnityEngine.CanvasRenderer::get_cullTransparentMesh
 UnityEngine.CanvasRenderer::get_hasMoved
@@ -114,6 +115,8 @@ UnityEngine.CanvasRenderer::set_hasPopInstruction
 UnityEngine.CanvasRenderer::set_materialCount
 UnityEngine.CanvasRenderer::set_popMaterialCount
 UnityEngine.CanvasRenderer::GetMaterial
+UnityEngine.CapsuleCollider2D::get_size_Injected
+UnityEngine.CapsuleCollider2D::set_size_Injected
 UnityEngine.Component::GetComponentsForListInternal
 UnityEngine.Component::SendMessage
 UnityEngine.Component::get_gameObject
