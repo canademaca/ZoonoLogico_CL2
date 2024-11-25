@@ -125,7 +125,7 @@ public class Mati_Cruza : MonoBehaviour
                 PlayerPrefs.SetInt(cantidad + a, restar);
             }
 
-            
+             ANALYTICS.SendMessage("cruza");
         }
 
         if (random > RetenerAnimal.porcentaje)
