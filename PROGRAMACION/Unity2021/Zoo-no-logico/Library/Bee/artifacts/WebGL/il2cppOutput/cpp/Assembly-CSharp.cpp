@@ -3479,6 +3479,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mC4BD32145437F282
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987 (String_t* ___key0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.PlayerPrefs::SetInt(System.String,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948 (String_t* ___key0, int32_t ___value1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.GameObject::SendMessage(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SendMessage_m65848D6A8F999FACBC1C21B7303660B7AFF6674E (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___methodName0, const RuntimeMethod* method) ;
 // UnityEngine.GameObject UnityEngine.Component::get_gameObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // System.String UnityEngine.GameObject::get_tag()
@@ -3557,8 +3559,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Behaviour_get_enabled_mAAC9F15E9EBF55221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___exists0, const RuntimeMethod* method) ;
 // System.String UnityEngine.Object::get_name()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.GameObject::SendMessage(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SendMessage_m65848D6A8F999FACBC1C21B7303660B7AFF6674E (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___methodName0, const RuntimeMethod* method) ;
 // System.Void EquippableItem::unequip(Character)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EquippableItem_unequip_m0F10BF0EBD578EEDC26AF71A714CFEA7A522EF2C (EquippableItem_tCC6C830CB1DD919049E109D564CA4A39B22CE43B* __this, Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* ___c0, const RuntimeMethod* method) ;
 // System.Void EquippableItem::equip(Character)
@@ -4227,6 +4227,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangeSceneRandom_LoadRandomScene_m56CF3
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA978BC4D35F473DAA0261DB84B8C6D00C88CF6C3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE43364EB0E96F638B84129CA860F41A9A1A882D8);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -4240,6 +4241,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangeSceneRandom_LoadRandomScene_m56CF3
 		int32_t L_1;
 		L_1 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteralA978BC4D35F473DAA0261DB84B8C6D00C88CF6C3, NULL);
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteralA978BC4D35F473DAA0261DB84B8C6D00C88CF6C3, ((int32_t)il2cpp_codegen_add(L_1, 1)), NULL);
+		// ANALYTICS.SendMessage("minigame");
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___ANALYTICS_4;
+		GameObject_SendMessage_m65848D6A8F999FACBC1C21B7303660B7AFF6674E(L_2, _stringLiteralE43364EB0E96F638B84129CA860F41A9A1A882D8, NULL);
 		// }
 		return;
 	}
