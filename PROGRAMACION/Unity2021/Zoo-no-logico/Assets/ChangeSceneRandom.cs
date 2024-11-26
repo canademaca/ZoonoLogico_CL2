@@ -20,7 +20,7 @@ public class ChangeSceneRandom : MonoBehaviour
         int random = Random.Range(18, 22);
         SceneManager.LoadScene(random, LoadSceneMode.Single);
         PlayerPrefs.SetInt("MinigameVez", PlayerPrefs.GetInt("MinigameVez") + 1);
-        
+        ANALYTICS.SendMessage("minigame");
     }
 
  
