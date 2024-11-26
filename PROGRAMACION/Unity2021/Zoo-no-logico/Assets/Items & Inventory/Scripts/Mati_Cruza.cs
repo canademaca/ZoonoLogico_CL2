@@ -27,7 +27,7 @@ public class Mati_Cruza : MonoBehaviour
         Boton.interactable = false;
         cruzas = Resources.LoadAll<Mati_CruzasAnimales>(""); // Especifica la ruta correcta
 
-        PC = PlayerPrefs.GetString("PrimeraCombinacion", "true");
+        PC = PlayerPrefs.GetString("PrimeraCombinacion");
         ANALYTICS = GameObject.FindGameObjectWithTag("ANALYTICS");
     }
 
@@ -48,12 +48,15 @@ public class Mati_Cruza : MonoBehaviour
 
             foreach (Mati_CruzasAnimales a in cruzas)
             {
-                if (a.nombre.Contains(animales1[0]) && a.nombre.Contains(animales1[1]) && a.nombre.Contains(animales1[2]))
+                if ((a.nombre.Contains(animales1[0])) && (a.nombre.Contains(animales1[1])) && (a.nombre.Contains(animales1[2])))
                 {
+                    print("Cruza" + a.id);
+                    print(PlayerPrefs.GetInt("Cruza" + a.id));
                     if (PlayerPrefs.GetInt("Cruza" + a.id) == 1)
                     {
+                        print("tomi");
                         StartCoroutine(DestruirObjeto(cartel));
-                        return;
+                        
                     }
 
                     int costo = ((int)a.precio / divisorCosto);
@@ -63,11 +66,14 @@ public class Mati_Cruza : MonoBehaviour
                     break;
                 }
             }
-
-            if (RetenerAnimal && RetenerAnimal.precio / divisorCosto <= PlayerPrefs.GetInt("Moneditas"))
+            if ((RetenerAnimal))
             {
-                Boton.interactable = true;
+                if (RetenerAnimal && RetenerAnimal.precio / divisorCosto <= PlayerPrefs.GetInt("Moneditas"))
+                {
+                    Boton.interactable = true;
+                }
             }
+            
         }
     }
 
@@ -84,7 +90,7 @@ public class Mati_Cruza : MonoBehaviour
             Text TextoMonedas = GameObject.FindGameObjectWithTag("txt_monedas").GetComponent<Text>();
             Text TextoPorcentaje = GameObject.FindGameObjectWithTag("txt_porcentaje").GetComponent<Text>();
 
-            TextoMonedas.text = "0";
+            TextoMonedas.text = 0.ToString();
             TextoPorcentaje.text = "%";
         }
     }
@@ -135,9 +141,11 @@ public class Mati_Cruza : MonoBehaviour
                 PlayerPrefs.SetString("PrimeraCombinacion", "false");
                 SceneManager.LoadScene(6);
                 PlayerPrefs.SetInt("cruzasExito", PlayerPrefs.GetInt("cruzasExito") + 1);
+                Debug.Log("primera cruza");
 
                 if (PlayerPrefs.GetInt("Cruza" + RetenerAnimal.id) == 0)
                 {
+                    Debug.Log("codex = 1");
                     PlayerPrefs.SetInt("totalCodex", PlayerPrefs.GetInt("totalCodex") + 1);
                 }
             }
@@ -154,6 +162,7 @@ public class Mati_Cruza : MonoBehaviour
 
             if (PlayerPrefs.GetInt("Cruza" + RetenerAnimal.id) == 0)
             {
+                Debug.Log("codex = 1");
                 PlayerPrefs.SetInt("totalCodex", PlayerPrefs.GetInt("totalCodex") + 1);
             }
         }
