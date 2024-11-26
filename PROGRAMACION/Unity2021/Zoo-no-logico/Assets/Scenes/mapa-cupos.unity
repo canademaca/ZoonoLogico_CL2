@@ -9727,7 +9727,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 1567899966}
-  comidaHandler: {fileID: 573310555}
+  comidaHandler: {fileID: 879401296}
 --- !u!114 &532462539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16584,7 +16584,7 @@ MonoBehaviour:
   comida: 0
   PantallaFaltaComida: {fileID: 0}
   feedCount: {fileID: 1583327659}
-  comidaHandler: {fileID: 984025855}
+  comidaHandler: {fileID: 879401296}
 --- !u!114 &879401296
 MonoBehaviour:
   m_ObjectHideFlags: 0

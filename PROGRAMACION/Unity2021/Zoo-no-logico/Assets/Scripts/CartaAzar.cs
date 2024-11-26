@@ -38,7 +38,7 @@ public class CartaAzar : MonoBehaviour
             listaRandom.Remove(8);
             listaRandom.Remove(9);
             listaRandom.Remove(10);
-            listaRandom.Remove(11);
+            //listaRandom.Remove(11);
 
             Reset = 1;
             PlayerPrefs.SetInt("ResetListCartas", Reset);
@@ -54,10 +54,10 @@ public class CartaAzar : MonoBehaviour
             listaRandom.Contains(7) &&
             listaRandom.Contains(8) &&
             listaRandom.Contains(9) &&
-            listaRandom.Contains(10)
-            &&
+            listaRandom.Contains(10))
+            /*&&
             listaRandom.Contains(11) &&
-            listaRandom.Contains(12))
+            listaRandom.Contains(12))*/
         {
             Pantalla.SetActive(false);
             PlayerPrefs.SetInt("DesactivarNoti", 1);
@@ -114,9 +114,9 @@ public class CartaAzar : MonoBehaviour
             listaRandom.Contains(7) &&
             listaRandom.Contains(8) &&
             listaRandom.Contains(9) &&
-            listaRandom.Contains(10) &&
+            listaRandom.Contains(10)) /*&&
             listaRandom.Contains(11) &&
-            listaRandom.Contains(12))
+            listaRandom.Contains(12))*/
         {
             PlayerPrefs.SetInt("DesactivarNoti", 1);
         }
