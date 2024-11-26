@@ -8609,6 +8609,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mati_Cruza_Craftear_m46A9C36CFBFD4CAC88D
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral114127409D69CD593E4BA0BA09793A3F2E7242DC);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral14AB0F5DB27D19BBFD341F0BACC14A99106B8F94);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral240672F646834BE198B9DB0C5B32CF3F86A0C5F8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral394219C00E7FCC5E08A750E2948D74923B8AC4E0);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6005AE0B68D724620C36454F943E9288518E4CD8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6D63A444235EB853DE92C7418A9130C8E37C26ED);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral77D38C0623F92B292B925F6E72CF5CF99A20D4EB);
@@ -8683,7 +8684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mati_Cruza_Craftear_m46A9C36CFBFD4CAC88D
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0166:
+FINALLY_0176:
 			{// begin finally (depth: 1)
 				Enumerator_Dispose_m592BCCE7B7933454DED2130C810F059F8D85B1D7((&V_2), Enumerator_Dispose_m592BCCE7B7933454DED2130C810F059F8D85B1D7_RuntimeMethod_var);
 				return;
@@ -8692,7 +8693,7 @@ FINALLY_0166:
 		try
 		{// begin try (depth: 1)
 			{
-				goto IL_0158_1;
+				goto IL_0168_1;
 			}
 
 IL_00bb_1:
@@ -8778,16 +8779,23 @@ IL_0138_1:
 
 IL_0158_1:
 			{
+				// ANALYTICS.SendMessage("cruza");
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_42 = __this->___ANALYTICS_13;
+				GameObject_SendMessage_m65848D6A8F999FACBC1C21B7303660B7AFF6674E(L_42, _stringLiteral394219C00E7FCC5E08A750E2948D74923B8AC4E0, NULL);
+			}
+
+IL_0168_1:
+			{
 				// foreach (string a in animales1)
-				bool L_42;
-				L_42 = Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED((&V_2), Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED_RuntimeMethod_var);
-				if (L_42)
+				bool L_43;
+				L_43 = Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED((&V_2), Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED_RuntimeMethod_var);
+				if (L_43)
 				{
 					goto IL_00bb_1;
 				}
 			}
 			{
-				goto IL_0174;
+				goto IL_0184;
 			}
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -8796,26 +8804,26 @@ IL_0158_1:
 		}
 	}
 
-IL_0174:
+IL_0184:
 	{
 		// if (random > RetenerAnimal.porcentaje)
-		int32_t L_43 = V_1;
-		Mati_CruzasAnimales_t3FA77C092CAF867C2B51B9FA8F1B36F1BAEFBEFE* L_44 = __this->___RetenerAnimal_9;
-		float L_45 = L_44->___porcentaje_7;
-		if ((!(((float)((float)L_43)) > ((float)L_45))))
+		int32_t L_44 = V_1;
+		Mati_CruzasAnimales_t3FA77C092CAF867C2B51B9FA8F1B36F1BAEFBEFE* L_45 = __this->___RetenerAnimal_9;
+		float L_46 = L_45->___porcentaje_7;
+		if ((!(((float)((float)L_44)) > ((float)L_46))))
 		{
-			goto IL_0220;
+			goto IL_0230;
 		}
 	}
 	{
 		// if (PlayerPrefs.GetString("PrimeraCombinacion") == "true")
-		String_t* L_46;
-		L_46 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral6005AE0B68D724620C36454F943E9288518E4CD8, NULL);
-		bool L_47;
-		L_47 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_46, _stringLiteralB7C45DD316C68ABF3429C20058C2981C652192F2, NULL);
-		if (!L_47)
+		String_t* L_47;
+		L_47 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral6005AE0B68D724620C36454F943E9288518E4CD8, NULL);
+		bool L_48;
+		L_48 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_47, _stringLiteralB7C45DD316C68ABF3429C20058C2981C652192F2, NULL);
+		if (!L_48)
 		{
-			goto IL_0202;
+			goto IL_0212;
 		}
 	}
 	{
@@ -8825,74 +8833,74 @@ IL_0174:
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1(6, NULL);
 		// PlayerPrefs.SetInt("cruzasExito", PlayerPrefs.GetInt("cruzasExito") + 1);
-		int32_t L_48;
-		L_48 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteral6D63A444235EB853DE92C7418A9130C8E37C26ED, NULL);
-		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral6D63A444235EB853DE92C7418A9130C8E37C26ED, ((int32_t)il2cpp_codegen_add(L_48, 1)), NULL);
+		int32_t L_49;
+		L_49 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteral6D63A444235EB853DE92C7418A9130C8E37C26ED, NULL);
+		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral6D63A444235EB853DE92C7418A9130C8E37C26ED, ((int32_t)il2cpp_codegen_add(L_49, 1)), NULL);
 		// if (PlayerPrefs.GetInt("Cruza" + RetenerAnimal.id) == 0)
-		Mati_CruzasAnimales_t3FA77C092CAF867C2B51B9FA8F1B36F1BAEFBEFE* L_49 = __this->___RetenerAnimal_9;
-		int32_t* L_50 = (&L_49->___id_6);
-		String_t* L_51;
-		L_51 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_50, NULL);
+		Mati_CruzasAnimales_t3FA77C092CAF867C2B51B9FA8F1B36F1BAEFBEFE* L_50 = __this->___RetenerAnimal_9;
+		int32_t* L_51 = (&L_50->___id_6);
 		String_t* L_52;
-		L_52 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFC6B0D8C273334466CB942604A0DD0085F7715B2, L_51, NULL);
-		int32_t L_53;
-		L_53 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(L_52, NULL);
-		if (L_53)
+		L_52 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_51, NULL);
+		String_t* L_53;
+		L_53 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFC6B0D8C273334466CB942604A0DD0085F7715B2, L_52, NULL);
+		int32_t L_54;
+		L_54 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(L_53, NULL);
+		if (L_54)
 		{
-			goto IL_0273;
+			goto IL_0283;
 		}
 	}
 	{
 		// PlayerPrefs.SetInt("totalCodex", PlayerPrefs.GetInt("totalCodex") + 1);
-		int32_t L_54;
-		L_54 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteral14AB0F5DB27D19BBFD341F0BACC14A99106B8F94, NULL);
-		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral14AB0F5DB27D19BBFD341F0BACC14A99106B8F94, ((int32_t)il2cpp_codegen_add(L_54, 1)), NULL);
+		int32_t L_55;
+		L_55 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteral14AB0F5DB27D19BBFD341F0BACC14A99106B8F94, NULL);
+		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral14AB0F5DB27D19BBFD341F0BACC14A99106B8F94, ((int32_t)il2cpp_codegen_add(L_55, 1)), NULL);
 		return;
 	}
 
-IL_0202:
+IL_0212:
 	{
 		// SceneManager.LoadScene(9);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1(((int32_t)9), NULL);
 		// PlayerPrefs.SetInt("cruzasFalla", PlayerPrefs.GetInt("cruzasFalla") + 1);
-		int32_t L_55;
-		L_55 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteralB9F2058382D7CD2CB07541F1AA5C4168B8F152E6, NULL);
-		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteralB9F2058382D7CD2CB07541F1AA5C4168B8F152E6, ((int32_t)il2cpp_codegen_add(L_55, 1)), NULL);
+		int32_t L_56;
+		L_56 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteralB9F2058382D7CD2CB07541F1AA5C4168B8F152E6, NULL);
+		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteralB9F2058382D7CD2CB07541F1AA5C4168B8F152E6, ((int32_t)il2cpp_codegen_add(L_56, 1)), NULL);
 		return;
 	}
 
-IL_0220:
+IL_0230:
 	{
 		// SceneManager.LoadScene(6);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1(6, NULL);
 		// PlayerPrefs.SetInt("cruzasExito", PlayerPrefs.GetInt("cruzasExito") + 1);
-		int32_t L_56;
-		L_56 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteral6D63A444235EB853DE92C7418A9130C8E37C26ED, NULL);
-		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral6D63A444235EB853DE92C7418A9130C8E37C26ED, ((int32_t)il2cpp_codegen_add(L_56, 1)), NULL);
+		int32_t L_57;
+		L_57 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteral6D63A444235EB853DE92C7418A9130C8E37C26ED, NULL);
+		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral6D63A444235EB853DE92C7418A9130C8E37C26ED, ((int32_t)il2cpp_codegen_add(L_57, 1)), NULL);
 		// if (PlayerPrefs.GetInt("Cruza" + RetenerAnimal.id) == 0)
-		Mati_CruzasAnimales_t3FA77C092CAF867C2B51B9FA8F1B36F1BAEFBEFE* L_57 = __this->___RetenerAnimal_9;
-		int32_t* L_58 = (&L_57->___id_6);
-		String_t* L_59;
-		L_59 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_58, NULL);
+		Mati_CruzasAnimales_t3FA77C092CAF867C2B51B9FA8F1B36F1BAEFBEFE* L_58 = __this->___RetenerAnimal_9;
+		int32_t* L_59 = (&L_58->___id_6);
 		String_t* L_60;
-		L_60 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFC6B0D8C273334466CB942604A0DD0085F7715B2, L_59, NULL);
-		int32_t L_61;
-		L_61 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(L_60, NULL);
-		if (L_61)
+		L_60 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_59, NULL);
+		String_t* L_61;
+		L_61 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFC6B0D8C273334466CB942604A0DD0085F7715B2, L_60, NULL);
+		int32_t L_62;
+		L_62 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(L_61, NULL);
+		if (L_62)
 		{
-			goto IL_0273;
+			goto IL_0283;
 		}
 	}
 	{
 		// PlayerPrefs.SetInt("totalCodex", PlayerPrefs.GetInt("totalCodex") + 1);
-		int32_t L_62;
-		L_62 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteral14AB0F5DB27D19BBFD341F0BACC14A99106B8F94, NULL);
-		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral14AB0F5DB27D19BBFD341F0BACC14A99106B8F94, ((int32_t)il2cpp_codegen_add(L_62, 1)), NULL);
+		int32_t L_63;
+		L_63 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteral14AB0F5DB27D19BBFD341F0BACC14A99106B8F94, NULL);
+		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral14AB0F5DB27D19BBFD341F0BACC14A99106B8F94, ((int32_t)il2cpp_codegen_add(L_63, 1)), NULL);
 	}
 
-IL_0273:
+IL_0283:
 	{
 		// }
 		return;
