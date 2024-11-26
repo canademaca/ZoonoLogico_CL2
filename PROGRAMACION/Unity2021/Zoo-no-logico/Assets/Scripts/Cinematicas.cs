@@ -100,6 +100,7 @@ public class Cinematicas : MonoBehaviour
     {
         minijuegoActivo = true;
         PausarCinematicas();
+        ANALYTICS.SendMessage("minigame");
     }
 
     // M�todo que se llama cuando se termina un minijuego
